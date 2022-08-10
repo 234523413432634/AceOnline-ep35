@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SocketLib - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP4384.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../common" /I "../ProjectAtum/main" /I "../DirectXLib/main" /I "../DataRenderLib/main" /I "../EtcLib/main" /I "../SkinnedMeshLib/main" /I "../InterfaceLib/main" /I "../EffectLib/main" /I "main" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_ATUM_CLIENT" /D "WIKIGAMES_ENG" /Fp"SocketLib___Win32_R_Wikigames_Eng/SocketLib.pch" /YX /Fo"SocketLib___Win32_R_Wikigames_Eng/" /Fd"SocketLib___Win32_R_Wikigames_Eng/" /FD /c 
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\SocketLib\main\FieldWinSocket.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\SocketLib\main\IMSocket.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\SocketLib\main\SocketHeader.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\SocketLib\main\WinPacket.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\SocketLib\main\WinSocket.cpp"
+]
+Creating command line "cl.exe @C:\Users\COMBAT~1\AppData\Local\Temp\RSP4384.tmp" 
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP4385.tmp" with contents
+[
+/nologo /out:"../../Lib/Release/SocketLib.lib" 
+".\SocketLib___Win32_R_Wikigames_Eng\FieldWinSocket.obj"
+".\SocketLib___Win32_R_Wikigames_Eng\IMSocket.obj"
+".\SocketLib___Win32_R_Wikigames_Eng\SocketHeader.obj"
+".\SocketLib___Win32_R_Wikigames_Eng\WinPacket.obj"
+".\SocketLib___Win32_R_Wikigames_Eng\WinSocket.obj"
+]
+Creating command line "link.exe -lib @C:\Users\COMBAT~1\AppData\Local\Temp\RSP4385.tmp"
+<h3>Output Window</h3>
+Compiling...
+FieldWinSocket.cpp
+IMSocket.cpp
+SocketHeader.cpp
+WinPacket.cpp
+WinSocket.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+SocketLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

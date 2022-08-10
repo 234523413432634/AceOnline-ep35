@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NPCServer", "NPCServer.vcxproj", "{E507C242-FF64-4462-B3CE-01CB87541138}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		D_Wikigames_Eng|Win32 = D_Wikigames_Eng|Win32
+		Debug|Win32 = Debug|Win32
+		R_Wikigames_Eng|Win32 = R_Wikigames_Eng|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E507C242-FF64-4462-B3CE-01CB87541138}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{E507C242-FF64-4462-B3CE-01CB87541138}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{E507C242-FF64-4462-B3CE-01CB87541138}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E507C242-FF64-4462-B3CE-01CB87541138}.Debug|Win32.Build.0 = Debug|Win32
+		{E507C242-FF64-4462-B3CE-01CB87541138}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{E507C242-FF64-4462-B3CE-01CB87541138}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{E507C242-FF64-4462-B3CE-01CB87541138}.Release|Win32.ActiveCfg = Release|Win32
+		{E507C242-FF64-4462-B3CE-01CB87541138}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

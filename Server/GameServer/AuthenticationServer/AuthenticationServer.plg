@@ -1,0 +1,153 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AuthenticationServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"..\..\output\AuthenticationServer\Debug/AuthenticationServer.res" /d "_DEBUG" "C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AuthenticationServer\AuthenticationServer.rc"" 
+Creating temporary file "C:\Users\St0rmy\AppData\Local\Temp\RSP78F8.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "_MBCS" /D "_ATUM_AUTHENTICATION_SERVER" /D "_ATUM_SERVER" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "TEST140" /FR"..\..\output\AuthenticationServer\Debug/" /Fo"..\..\output\AuthenticationServer\Debug/" /Fd"..\..\output\AuthenticationServer\Debug/" /FD /GZ /c 
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\Global.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\IOCP.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\IOCPSocket.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\md5_lib_src.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\Overlapped.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\SocketHeader.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\SystemLogManager.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\ThreadCheck.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\VMem.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\VMemPool.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\WinPacket.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\WinSocket.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\Config.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\GlobalGameServer.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\WayPointManager.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AuthenticationServer\main\AtumAuthenticationDBManager.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumDateTime.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumDBHelper.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumDBManager.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumParamProtocol.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumParamProtocolFunctions.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumSJ.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumThread.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AuthenticationServer\Main\AuthenticationGlobal.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AuthenticationServer\main\AuthenticationIOCP.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AuthenticationServer\main\AuthenticationIOCPSocket.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AuthenticationServer\AuthenticationServer.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AuthenticationServer\Main\AuthenticationTickManager.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\Localization.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\MTAutoCriticalSection.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\MTCriticalSection.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\ODBCStatement.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\QueueINT.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\sha256.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\TickManager.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\Common\XOR_Lib.cpp"
+]
+Creating command line "cl.exe @C:\Users\St0rmy\AppData\Local\Temp\RSP78F8.tmp" 
+Creating temporary file "C:\Users\St0rmy\AppData\Local\Temp\RSP78F9.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "_MBCS" /D "_ATUM_AUTHENTICATION_SERVER" /D "_ATUM_SERVER" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "TEST140" /FR"..\..\output\AuthenticationServer\Debug/" /Fp"..\..\output\AuthenticationServer\Debug/AuthenticationServer.pch" /Yc"stdafx.h" /Fo"..\..\output\AuthenticationServer\Debug/" /Fd"..\..\output\AuthenticationServer\Debug/" /FD /GZ /c 
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AuthenticationServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\St0rmy\AppData\Local\Temp\RSP78F9.tmp" 
+Creating temporary file "C:\Users\St0rmy\AppData\Local\Temp\RSP78FA.tmp" with contents
+[
+winmm.lib D3dx8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"..\..\output\AuthenticationServer\Debug/AuthenticationServer.pdb" /map:"..\..\output\AuthenticationServer\Debug/AuthenticationServer.map" /debug /machine:I386 /out:"..\..\Bin\Debug/AuthenticationServer.exe" /pdbtype:sept /libpath:"..\..\Lib" /MAPINFO:EXPORTS /MAPINFO:LINES 
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\Global.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\IOCP.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\IOCPSocket.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\md5_lib_src.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\Overlapped.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\SocketHeader.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\SystemLogManager.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\ThreadCheck.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\VMem.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\VMemPool.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\WinPacket.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\WinSocket.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\Config.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\GlobalGameServer.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\WayPointManager.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AtumAuthenticationDBManager.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AtumDateTime.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AtumDBHelper.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AtumDBManager.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AtumParamProtocol.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AtumParamProtocolFunctions.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AtumSJ.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AtumThread.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AuthenticationGlobal.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AuthenticationIOCP.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AuthenticationIOCPSocket.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AuthenticationServer.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AuthenticationTickManager.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\Localization.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\MTAutoCriticalSection.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\MTCriticalSection.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\ODBCStatement.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\QueueINT.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\sha256.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\StdAfx.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\TickManager.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\XOR_Lib.obj"
+"\EP3.5_FullSource_2012-02-15\Server\output\AuthenticationServer\Debug\AuthenticationServer.res"
+]
+Creating command line "link.exe @C:\Users\St0rmy\AppData\Local\Temp\RSP78FA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Global.cpp
+IOCP.cpp
+IOCPSocket.cpp
+md5_lib_src.cpp
+Overlapped.cpp
+SocketHeader.cpp
+SystemLogManager.cpp
+ThreadCheck.cpp
+VMem.cpp
+VMemPool.cpp
+WinPacket.cpp
+WinSocket.cpp
+Config.cpp
+GlobalGameServer.cpp
+WayPointManager.cpp
+AtumAuthenticationDBManager.cpp
+AtumDateTime.cpp
+AtumDBHelper.cpp
+AtumDBManager.cpp
+AtumParamProtocol.cpp
+Generating Code...
+Compiling...
+AtumParamProtocolFunctions.cpp
+AtumSJ.cpp
+AtumThread.cpp
+AuthenticationGlobal.cpp
+AuthenticationIOCP.cpp
+AuthenticationIOCPSocket.cpp
+AuthenticationServer.cpp
+AuthenticationTickManager.cpp
+Localization.cpp
+MTAutoCriticalSection.cpp
+MTCriticalSection.cpp
+ODBCStatement.cpp
+QueueINT.cpp
+sha256.cpp
+TickManager.cpp
+XOR_Lib.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+
+
+
+<h3>Results</h3>
+AuthenticationServer.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

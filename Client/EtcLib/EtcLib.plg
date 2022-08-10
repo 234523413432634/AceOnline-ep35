@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EtcLib - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP6BB9.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../common" /I "../ProjectAtum/main" /I "../DirectXLib/main" /I "../DataRenderLib/main" /I "../SkinnedMeshLib/main" /I "../SocketLib/main" /I "../InterfaceLib/main" /I "../EffectLib/main" /I "main" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_ATUM_CLIENT" /D "WIKIGAMES_ENG" /Fp"EtcLib___Win32_R_Wikigames_Eng/EtcLib.pch" /YX /Fo"EtcLib___Win32_R_Wikigames_Eng/" /Fd"EtcLib___Win32_R_Wikigames_Eng/" /FD /c 
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\AbuseFilter.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\AtumData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\AtumDateTime.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\AtumGlobal.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\AtumNode.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\AtumParamProtocol.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\AtumParamProtocolFunctions.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\AtumSJ.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\AtumThread.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\Cinema.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\ClientParty.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\CodeTrans.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\FileHeader.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\Frustum.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\FunctionLog.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\FunctionLogGFunctions.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\GameDataLast.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\Iexplore.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\ImageManager.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\InputManager.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\ItemInfo.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\MGameDecryption.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\PkNormalTimer.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\Quest.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\Common\sha256.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\Skill.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\SkillInfo.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\TickTimeProcess.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\TutorialSystem.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\common\UserVariable.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EtcLib\main\WeaponItemInfo.cpp"
+]
+Creating command line "cl.exe @C:\Users\COMBAT~1\AppData\Local\Temp\RSP6BB9.tmp" 
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP6BBA.tmp" with contents
+[
+/nologo /out:"../../Lib/Release/EtcLib.lib" 
+".\EtcLib___Win32_R_Wikigames_Eng\AbuseFilter.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\AtumData.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\AtumDateTime.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\AtumGlobal.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\AtumNode.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\AtumParamProtocol.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\AtumParamProtocolFunctions.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\AtumSJ.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\AtumThread.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\Cinema.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\ClientParty.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\CodeTrans.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\FileHeader.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\Frustum.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\FunctionLog.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\FunctionLogGFunctions.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\GameDataLast.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\Iexplore.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\ImageManager.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\InputManager.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\ItemInfo.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\MGameDecryption.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\PkNormalTimer.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\Quest.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\sha256.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\Skill.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\SkillInfo.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\TickTimeProcess.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\TutorialSystem.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\UserVariable.obj"
+".\EtcLib___Win32_R_Wikigames_Eng\WeaponItemInfo.obj"
+]
+Creating command line "link.exe -lib @C:\Users\COMBAT~1\AppData\Local\Temp\RSP6BBA.tmp"
+<h3>Output Window</h3>
+Compiling...
+AbuseFilter.cpp
+AtumData.cpp
+AtumDateTime.cpp
+AtumGlobal.cpp
+AtumNode.cpp
+AtumParamProtocol.cpp
+AtumParamProtocolFunctions.cpp
+AtumSJ.cpp
+AtumThread.cpp
+Cinema.cpp
+ClientParty.cpp
+CodeTrans.cpp
+FileHeader.cpp
+Frustum.cpp
+FunctionLog.cpp
+FunctionLogGFunctions.cpp
+GameDataLast.cpp
+Iexplore.cpp
+ImageManager.cpp
+InputManager.cpp
+ItemInfo.cpp
+MGameDecryption.cpp
+PkNormalTimer.cpp
+Quest.cpp
+sha256.cpp
+Skill.cpp
+SkillInfo.cpp
+TickTimeProcess.cpp
+TutorialSystem.cpp
+UserVariable.cpp
+WeaponItemInfo.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+EtcLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AtumMonitor - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\St0rmy\AppData\Local\Temp\RSP288A.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_ATUM_SERVER" /D "WIKIGAMES_ENG" /D "SC_MONITOR" /FR"AtumMonitor___Win32_R_Wikigames_Eng/" /Fo"AtumMonitor___Win32_R_Wikigames_Eng/" /Fd"AtumMonitor___Win32_R_Wikigames_Eng/" /FD /c 
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumDBHelper.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumDBManager.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumParamProtocol.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\AtumParamProtocolFunctions.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\CheckDBData.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\FieldServerDlg.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\GlobalGameServer.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\ImportExcelDlg.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\InfoGenDlg.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\LeftView.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\LoadExcelFile.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\main\MonitorNode.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\MonitorTickManager.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\main\MonitorWinSocket.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\SetCityWarTimeDlg.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\AtumMonitor\SQLReaderDlg.cpp"
+"C:\EP3.5_FullSource_2012-02-15\Server\GameServer\CommonGameServer\WayPointManager.cpp"
+]
+Creating command line "cl.exe @C:\Users\St0rmy\AppData\Local\Temp\RSP288A.tmp" 
+Creating temporary file "C:\Users\St0rmy\AppData\Local\Temp\RSP288B.tmp" with contents
+[
+winmm.lib odbc32.lib odbccp32.lib ZipArchive.lib /nologo /subsystem:windows /incremental:no /pdb:"AtumMonitor___Win32_R_Wikigames_Eng/SCMonitor_Main.pdb" /map:"AtumMonitor___Win32_R_Wikigames_Eng/SCMonitor_Main.map" /machine:I386 /nodefaultlib:"MSVCRT" /out:"..\..\..\Output\Tools\SCMonitor_Main.exe" /libpath:"..\..\Lib" /MAPINFO:EXPORTS /MAPINFO:LINES 
+".\AtumMonitor___Win32_R_Wikigames_Eng\AdminWindowDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumDateTime.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumDBHelper.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumDBManager.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumMonitor.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumMonitorDoc.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumMonitorView.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumParamProtocol.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumParamProtocolFunctions.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumThread.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\BrowseForFolder.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\CheckDBData.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\CheckItemDialog.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\ClientFTPUpdateManagerDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\CommandHistory.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\DataHeader.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\DlgNewServerGroup.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\FieldServerDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\Global.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\GlobalGameServer.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\GridCell.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\GridCellBase.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\GridCtrl.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\GridDropTarget.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\historycombobox.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\HttpManager.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\ImportExcelDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\InfoGenDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\InPlaceEdit.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\IOCP.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\IOCPSocket.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\LeftView.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\LoadExcelFile.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\Localization.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\MainFrm.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\md5_lib_src.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\MonitorNode.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\MonitorTickManager.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\MonitorWinSocket.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\MTAutoCriticalSection.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\MTCriticalSection.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\MyFileDialog.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\ODBCStatement.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\Overlapped.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\PreUserCountDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\PringDBGDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\QueueINT.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\RecordProgress.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\SCServerDBConnDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\SelectServerDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\SetCityWarTimeDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\SetMGameEventTypeDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\SocketHeader.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\SQLReader.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\SQLReaderDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\StdAfx.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\SystemLogManager.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\TableName.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\ThreadCheck.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\TickManager.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\TitleTip.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\TotalHeader.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\TotalProgress.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\TrayIcon.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\VMem.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\VMemPool.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\WayPointManager.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\WinPacket.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\WinSocket.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\XOR_Lib.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\Zipfile1.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\zipfileDlg.obj"
+".\AtumMonitor___Win32_R_Wikigames_Eng\AtumMonitor.res"
+]
+Creating command line "link.exe @C:\Users\St0rmy\AppData\Local\Temp\RSP288B.tmp"
+<h3>Output Window</h3>
+Compiling...
+AtumDBHelper.cpp
+AtumDBManager.cpp
+  Monitor Configuration -> Including T_FM Protocol
+AtumParamProtocol.cpp
+  Monitor Configuration -> Including T_FM Protocol
+AtumParamProtocolFunctions.cpp
+  Monitor Configuration -> Including T_FM Protocol
+CheckDBData.cpp
+  Monitor Configuration -> Including T_FM Protocol
+FieldServerDlg.cpp
+  Monitor Configuration -> Including T_FM Protocol
+GlobalGameServer.cpp
+  Monitor Configuration -> Including T_FM Protocol
+ImportExcelDlg.cpp
+  Monitor Configuration -> Including T_FM Protocol
+InfoGenDlg.cpp
+  Monitor Configuration -> Including T_FM Protocol
+LeftView.cpp
+  Monitor Configuration -> Including T_FM Protocol
+LoadExcelFile.cpp
+  Monitor Configuration -> Including T_FM Protocol
+MonitorNode.cpp
+  Monitor Configuration -> Including T_FM Protocol
+MonitorTickManager.cpp
+  Monitor Configuration -> Including T_FM Protocol
+MonitorWinSocket.cpp
+  Monitor Configuration -> Including T_FM Protocol
+SetCityWarTimeDlg.cpp
+  Monitor Configuration -> Including T_FM Protocol
+SQLReaderDlg.cpp
+  Monitor Configuration -> Including T_FM Protocol
+WayPointManager.cpp
+  Monitor Configuration -> Including T_FM Protocol
+Generating Code...
+  Monitor Configuration -> Including T_FM Protocol
+Linking...
+LINK : warning LNK4049: locally defined symbol "_calloc" imported
+LINK : warning LNK4049: locally defined symbol "_free" imported
+
+
+
+<h3>Results</h3>
+SCMonitor_Main.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

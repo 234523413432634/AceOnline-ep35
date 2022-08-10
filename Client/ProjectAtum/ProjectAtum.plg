@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ProjectAtum - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP5FF8.tmp" with contents
+[
+version.lib dxerr9.lib d3dxof.lib dinput8.lib dxguid.lib d3d9.lib d3dx9dt.lib quartz.lib strmbase.lib comctl32.lib strmiids.lib dsound.lib imm32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib AtumJpg.lib DataRenderLib.lib DirectXLib.lib EffectLib.lib EtcLib.lib InterfaceLib.lib SkinnedMeshLib.lib SocketLib.lib QuestLoaderLib.lib HShield.lib /nologo /subsystem:windows /incremental:no /pdb:"ProjectAtum___Win32_R_Wikigames_Eng/ACEOnline.pdb" /map:"ProjectAtum___Win32_R_Wikigames_Eng/ACEOnline.map" /debug /machine:I386 /out:"..\..\..\Output\Client\ACEOnline.atm" /libpath:"../../Lib/Release" /libpath:"../../Lib" /MAPINFO:EXPORTS /MAPINFO:LINES 
+".\ProjectAtum___Win32_R_Wikigames_Eng\ArenaManager.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\AtumApplication.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\AtumDatabase.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\AtumNode.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\Background.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\CImm.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\CInput.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\CustomOptimizer.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\FieldWinSocketManager.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\GlobalImage.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\IMSocketManager.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\INFCityInfinityField.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\INFGameMain.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\INFInfinity.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\InfinityManager.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\InitThread.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\MapInitThread.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\MapLoad.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\md5.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\MemPoolClient.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\MeshInitThread.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\metafile.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\ProjectAtum.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\QuadGround.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\QuadTree.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\SceneData.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\shieldSecurity.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\shieldSecurityDll.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\SinglePlayGame.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\utility.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\VMemClient.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\Water.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\WorldRankManager.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\zwave_sdk_client.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\DarkCrash.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\ErrorController.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\NTDbgHelperWindow.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\NTExceptionCause.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\NTFtp.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\NTGetWinVer.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\NTMiniDump.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\NTSystemInfo.obj"
+".\ProjectAtum___Win32_R_Wikigames_Eng\ProjectAtum.res"
+"\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\Lib\Release\DataRenderLib.lib"
+"\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\Lib\Release\DirectXLib.lib"
+"\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\Lib\Release\EffectLib.lib"
+"\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\Lib\Release\EtcLib.lib"
+"\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\Lib\Release\InterfaceLib.lib"
+"\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\Lib\Release\SkinnedMeshLib.lib"
+"\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\Lib\Release\SocketLib.lib"
+]
+Creating command line "link.exe @C:\Users\COMBAT~1\AppData\Local\Temp\RSP5FF8.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+ACEOnline.atm - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

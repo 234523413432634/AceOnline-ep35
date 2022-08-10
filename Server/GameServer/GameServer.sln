@@ -1,0 +1,116 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Atum", "Atum\Atum.vcxproj", "{48C365C4-5BE5-41EA-A338-33524DA022D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtumAdminTool", "AtumAdminTool\AtumAdminTool.vcxproj", "{B6FFC4C5-98F1-426C-9F3E-46EDBA9C596D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtumLauncher", "AtumLauncher\AtumLauncher.vcxproj", "{F9E04235-F8DA-4C3D-92F6-94E335C93B52}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtumMonitor", "AtumMonitor\AtumMonitor.vcxproj", "{BCD50A39-203D-4B7F-99C5-988E46C6CC66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FieldServer", "FieldServer\FieldServer.vcxproj", "{A9A47085-F111-4C40-8E33-E8FD22670322}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IMServer", "IMServer\IMServer.vcxproj", "{E5C3CD6F-56B9-465C-A1E7-CA6CEC876EFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogServer", "LogServer\LogServer.vcxproj", "{00C6FB2F-787A-437C-9A87-C725780739B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NPCServer", "NPCServer\NPCServer.vcxproj", "{C149EEA1-7AA0-4A68-A9E3-A9BD70AB94BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PreServer", "PreServer\PreServer.vcxproj", "{2AE5DF2C-7649-49BE-AEAF-9C741A528FC8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuestLoader", "QuestLoader\QuestLoader.vcxproj", "{B201C642-9F94-4551-A0C4-3795E70BBE30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuestLoaderLib", "QuestLoaderLib\QuestLoaderLib.vcxproj", "{99BC8BD0-5C8D-44F7-97A2-BE131BC53DB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpaceCowboyDBEditorTool", "SpaceCowboyDBEditorTool\SpaceCowboyDBEditorTool.vcxproj", "{833ED903-785A-4F05-AE6A-419E0582C322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		D_Wikigames_Eng|Win32 = D_Wikigames_Eng|Win32
+		R_Wikigames_Eng_Arena|Win32 = R_Wikigames_Eng_Arena|Win32
+		R_Wikigames_Eng|Win32 = R_Wikigames_Eng|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48C365C4-5BE5-41EA-A338-33524DA022D8}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{48C365C4-5BE5-41EA-A338-33524DA022D8}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{48C365C4-5BE5-41EA-A338-33524DA022D8}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{48C365C4-5BE5-41EA-A338-33524DA022D8}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{48C365C4-5BE5-41EA-A338-33524DA022D8}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{48C365C4-5BE5-41EA-A338-33524DA022D8}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{B6FFC4C5-98F1-426C-9F3E-46EDBA9C596D}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{B6FFC4C5-98F1-426C-9F3E-46EDBA9C596D}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{B6FFC4C5-98F1-426C-9F3E-46EDBA9C596D}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{B6FFC4C5-98F1-426C-9F3E-46EDBA9C596D}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{B6FFC4C5-98F1-426C-9F3E-46EDBA9C596D}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{B6FFC4C5-98F1-426C-9F3E-46EDBA9C596D}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{F9E04235-F8DA-4C3D-92F6-94E335C93B52}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{F9E04235-F8DA-4C3D-92F6-94E335C93B52}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{F9E04235-F8DA-4C3D-92F6-94E335C93B52}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{F9E04235-F8DA-4C3D-92F6-94E335C93B52}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{F9E04235-F8DA-4C3D-92F6-94E335C93B52}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{F9E04235-F8DA-4C3D-92F6-94E335C93B52}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{BCD50A39-203D-4B7F-99C5-988E46C6CC66}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{BCD50A39-203D-4B7F-99C5-988E46C6CC66}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{BCD50A39-203D-4B7F-99C5-988E46C6CC66}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{BCD50A39-203D-4B7F-99C5-988E46C6CC66}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{BCD50A39-203D-4B7F-99C5-988E46C6CC66}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{BCD50A39-203D-4B7F-99C5-988E46C6CC66}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{A9A47085-F111-4C40-8E33-E8FD22670322}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{A9A47085-F111-4C40-8E33-E8FD22670322}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{A9A47085-F111-4C40-8E33-E8FD22670322}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng_Arena|Win32
+		{A9A47085-F111-4C40-8E33-E8FD22670322}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng_Arena|Win32
+		{A9A47085-F111-4C40-8E33-E8FD22670322}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{A9A47085-F111-4C40-8E33-E8FD22670322}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{E5C3CD6F-56B9-465C-A1E7-CA6CEC876EFA}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{E5C3CD6F-56B9-465C-A1E7-CA6CEC876EFA}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{E5C3CD6F-56B9-465C-A1E7-CA6CEC876EFA}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng_Arena|Win32
+		{E5C3CD6F-56B9-465C-A1E7-CA6CEC876EFA}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng_Arena|Win32
+		{E5C3CD6F-56B9-465C-A1E7-CA6CEC876EFA}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{E5C3CD6F-56B9-465C-A1E7-CA6CEC876EFA}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{00C6FB2F-787A-437C-9A87-C725780739B0}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{00C6FB2F-787A-437C-9A87-C725780739B0}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{00C6FB2F-787A-437C-9A87-C725780739B0}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng_Arena|Win32
+		{00C6FB2F-787A-437C-9A87-C725780739B0}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng_Arena|Win32
+		{00C6FB2F-787A-437C-9A87-C725780739B0}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{00C6FB2F-787A-437C-9A87-C725780739B0}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{C149EEA1-7AA0-4A68-A9E3-A9BD70AB94BC}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{C149EEA1-7AA0-4A68-A9E3-A9BD70AB94BC}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{C149EEA1-7AA0-4A68-A9E3-A9BD70AB94BC}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng_Arena|Win32
+		{C149EEA1-7AA0-4A68-A9E3-A9BD70AB94BC}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng_Arena|Win32
+		{C149EEA1-7AA0-4A68-A9E3-A9BD70AB94BC}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{C149EEA1-7AA0-4A68-A9E3-A9BD70AB94BC}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{2AE5DF2C-7649-49BE-AEAF-9C741A528FC8}.D_Wikigames_Eng|Win32.ActiveCfg = D_Wikigames_Eng|Win32
+		{2AE5DF2C-7649-49BE-AEAF-9C741A528FC8}.D_Wikigames_Eng|Win32.Build.0 = D_Wikigames_Eng|Win32
+		{2AE5DF2C-7649-49BE-AEAF-9C741A528FC8}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{2AE5DF2C-7649-49BE-AEAF-9C741A528FC8}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{2AE5DF2C-7649-49BE-AEAF-9C741A528FC8}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{2AE5DF2C-7649-49BE-AEAF-9C741A528FC8}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{B201C642-9F94-4551-A0C4-3795E70BBE30}.D_Wikigames_Eng|Win32.ActiveCfg = Debug|Win32
+		{B201C642-9F94-4551-A0C4-3795E70BBE30}.D_Wikigames_Eng|Win32.Build.0 = Debug|Win32
+		{B201C642-9F94-4551-A0C4-3795E70BBE30}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{B201C642-9F94-4551-A0C4-3795E70BBE30}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{B201C642-9F94-4551-A0C4-3795E70BBE30}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{B201C642-9F94-4551-A0C4-3795E70BBE30}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{99BC8BD0-5C8D-44F7-97A2-BE131BC53DB8}.D_Wikigames_Eng|Win32.ActiveCfg = Debug|Win32
+		{99BC8BD0-5C8D-44F7-97A2-BE131BC53DB8}.D_Wikigames_Eng|Win32.Build.0 = Debug|Win32
+		{99BC8BD0-5C8D-44F7-97A2-BE131BC53DB8}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{99BC8BD0-5C8D-44F7-97A2-BE131BC53DB8}.R_Wikigames_Eng_Arena|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{99BC8BD0-5C8D-44F7-97A2-BE131BC53DB8}.R_Wikigames_Eng|Win32.ActiveCfg = R_Wikigames_Eng|Win32
+		{99BC8BD0-5C8D-44F7-97A2-BE131BC53DB8}.R_Wikigames_Eng|Win32.Build.0 = R_Wikigames_Eng|Win32
+		{833ED903-785A-4F05-AE6A-419E0582C322}.D_Wikigames_Eng|Win32.ActiveCfg = Debug|Win32
+		{833ED903-785A-4F05-AE6A-419E0582C322}.D_Wikigames_Eng|Win32.Build.0 = Debug|Win32
+		{833ED903-785A-4F05-AE6A-419E0582C322}.R_Wikigames_Eng_Arena|Win32.ActiveCfg = Release|Win32
+		{833ED903-785A-4F05-AE6A-419E0582C322}.R_Wikigames_Eng_Arena|Win32.Build.0 = Release|Win32
+		{833ED903-785A-4F05-AE6A-419E0582C322}.R_Wikigames_Eng|Win32.ActiveCfg = Release|Win32
+		{833ED903-785A-4F05-AE6A-419E0582C322}.R_Wikigames_Eng|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C0E15C6-FB63-4A2B-88C1-57F80EAE7DAB}
+	EndGlobalSection
+EndGlobal

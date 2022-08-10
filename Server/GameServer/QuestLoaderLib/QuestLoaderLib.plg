@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QuestLoaderLib - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Matteo\AppData\Local\Temp\RSP169D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "." /I "..\..\Common" /I "..\..\GameServer\CommonGameServer" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_ATUM_DATA_LOADER" /D "WIKIGAMES_ENG" /Fp"QuestLoaderLib___Win32_R_Wikigames_Eng/QuestLoaderLib.pch" /YX /Fo"QuestLoaderLib___Win32_R_Wikigames_Eng/" /Fd"QuestLoaderLib___Win32_R_Wikigames_Eng/" /FD /c 
+"G:\CombatRivals_Source\Server\GameServer\QuestLoader\QuestLoader.cpp"
+"G:\CombatRivals_Source\Server\GameServer\QuestLoader\QuestLoader.l.cpp"
+"G:\CombatRivals_Source\Server\GameServer\QuestLoader\QuestLoaderParser.cpp"
+]
+Creating command line "cl.exe @C:\Users\Matteo\AppData\Local\Temp\RSP169D.tmp" 
+Creating temporary file "C:\Users\Matteo\AppData\Local\Temp\RSP16AE.tmp" with contents
+[
+/nologo /out:"..\..\BuildResultSvr\Server\Lib\QuestLoaderLib.lib" 
+.\QuestLoaderLib___Win32_R_Wikigames_Eng\QuestLoader.obj
+.\QuestLoaderLib___Win32_R_Wikigames_Eng\QuestLoader.l.obj
+.\QuestLoaderLib___Win32_R_Wikigames_Eng\QuestLoaderParser.obj
+]
+Creating command line "link.exe -lib @C:\Users\Matteo\AppData\Local\Temp\RSP16AE.tmp"
+<h3>Output Window</h3>
+Compiling...
+QuestLoader.cpp
+QuestLoader.cpp(1814) : warning C4065: switch statement contains 'default' but no 'case' labels
+QuestLoader.l.cpp
+QuestLoaderParser.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+QuestLoaderLib.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

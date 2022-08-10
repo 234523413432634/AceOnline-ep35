@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LogServer - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Aesir\AppData\Local\Temp\RSP5527.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "_MBCS" /D "_ATUM_LOG_SERVER" /D "_ATUM_SERVER" /D "WIN32" /D "_WINDOWS" /D "WIKIGAMES_ENG" /D "ARENA" /Fo"LogServer___Win32_R_Wikigames_Eng/" /Fd"LogServer___Win32_R_Wikigames_Eng/" /FD /c 
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDateTime.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDBHelper.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDBLogWriter.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDBManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\LogServer\Main\AtumLogDBManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumParamProtocol.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumParamProtocolFunctions.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\Config.cpp"
+"F:\CombatRivals_Source\Server\Common\Global.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\GlobalGameServer.cpp"
+"F:\CombatRivals_Source\Server\GameServer\LogServer\GLogDBManager.cpp"
+"F:\CombatRivals_Source\Server\Common\IOCP.cpp"
+"F:\CombatRivals_Source\Server\Common\IOCPSocket.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\Localization.cpp"
+"F:\CombatRivals_Source\Server\GameServer\LogServer\Main\LogGlobal.cpp"
+"F:\CombatRivals_Source\Server\GameServer\LogServer\main\LogIOCP.cpp"
+"F:\CombatRivals_Source\Server\GameServer\LogServer\main\LogIOCPSocket.cpp"
+"F:\CombatRivals_Source\Server\GameServer\LogServer\LogServer.cpp"
+"F:\CombatRivals_Source\Server\Common\md5_lib_src.cpp"
+"F:\CombatRivals_Source\Server\Common\MTAutoCriticalSection.cpp"
+"F:\CombatRivals_Source\Server\Common\MTCriticalSection.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\ODBCStatement.cpp"
+"F:\CombatRivals_Source\Server\Common\Overlapped.cpp"
+"F:\CombatRivals_Source\Server\Common\QueueINT.cpp"
+"F:\CombatRivals_Source\Server\Common\sha256.cpp"
+"F:\CombatRivals_Source\Server\Common\SocketHeader.cpp"
+"F:\CombatRivals_Source\Server\GameServer\LogServer\StdAfx.cpp"
+"F:\CombatRivals_Source\Server\Common\SystemLogManager.cpp"
+"F:\CombatRivals_Source\Server\Common\ThreadCheck.cpp"
+"F:\CombatRivals_Source\Server\Common\VMem.cpp"
+"F:\CombatRivals_Source\Server\Common\VMemPool.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\WayPointManager.cpp"
+"F:\CombatRivals_Source\Server\Common\WinPacket.cpp"
+"F:\CombatRivals_Source\Server\Common\XOR_Lib.cpp"
+]
+Creating command line "cl.exe @C:\Users\Aesir\AppData\Local\Temp\RSP5527.tmp" 
+Creating temporary file "C:\Users\Aesir\AppData\Local\Temp\RSP5528.tmp" with contents
+[
+winmm.lib D3dx8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"LogServer___Win32_R_Wikigames_Eng/LogServer.pdb" /map:"..\..\Bin\Release/LogServer.map" /debug /machine:I386 /out:"..\..\..\Output\Server\LogServer.exe" /MAPINFO:EXPORTS /MAPINFO:LINES 
+.\LogServer___Win32_R_Wikigames_Eng\AtumDateTime.obj
+.\LogServer___Win32_R_Wikigames_Eng\AtumDBHelper.obj
+.\LogServer___Win32_R_Wikigames_Eng\AtumDBLogWriter.obj
+.\LogServer___Win32_R_Wikigames_Eng\AtumDBManager.obj
+.\LogServer___Win32_R_Wikigames_Eng\AtumLogDBManager.obj
+.\LogServer___Win32_R_Wikigames_Eng\AtumParamProtocol.obj
+.\LogServer___Win32_R_Wikigames_Eng\AtumParamProtocolFunctions.obj
+.\LogServer___Win32_R_Wikigames_Eng\Config.obj
+.\LogServer___Win32_R_Wikigames_Eng\Global.obj
+.\LogServer___Win32_R_Wikigames_Eng\GlobalGameServer.obj
+.\LogServer___Win32_R_Wikigames_Eng\GLogDBManager.obj
+.\LogServer___Win32_R_Wikigames_Eng\IOCP.obj
+.\LogServer___Win32_R_Wikigames_Eng\IOCPSocket.obj
+.\LogServer___Win32_R_Wikigames_Eng\Localization.obj
+.\LogServer___Win32_R_Wikigames_Eng\LogGlobal.obj
+.\LogServer___Win32_R_Wikigames_Eng\LogIOCP.obj
+.\LogServer___Win32_R_Wikigames_Eng\LogIOCPSocket.obj
+.\LogServer___Win32_R_Wikigames_Eng\LogServer.obj
+.\LogServer___Win32_R_Wikigames_Eng\md5_lib_src.obj
+.\LogServer___Win32_R_Wikigames_Eng\MTAutoCriticalSection.obj
+.\LogServer___Win32_R_Wikigames_Eng\MTCriticalSection.obj
+.\LogServer___Win32_R_Wikigames_Eng\ODBCStatement.obj
+.\LogServer___Win32_R_Wikigames_Eng\Overlapped.obj
+.\LogServer___Win32_R_Wikigames_Eng\QueueINT.obj
+.\LogServer___Win32_R_Wikigames_Eng\sha256.obj
+.\LogServer___Win32_R_Wikigames_Eng\SocketHeader.obj
+.\LogServer___Win32_R_Wikigames_Eng\StdAfx.obj
+.\LogServer___Win32_R_Wikigames_Eng\SystemLogManager.obj
+.\LogServer___Win32_R_Wikigames_Eng\ThreadCheck.obj
+.\LogServer___Win32_R_Wikigames_Eng\VMem.obj
+.\LogServer___Win32_R_Wikigames_Eng\VMemPool.obj
+.\LogServer___Win32_R_Wikigames_Eng\WayPointManager.obj
+.\LogServer___Win32_R_Wikigames_Eng\WinPacket.obj
+.\LogServer___Win32_R_Wikigames_Eng\XOR_Lib.obj
+.\LogServer___Win32_R_Wikigames_Eng\LogServer.res
+]
+Creating command line "link.exe @C:\Users\Aesir\AppData\Local\Temp\RSP5528.tmp"
+<h3>Output Window</h3>
+Compiling...
+AtumDateTime.cpp
+AtumDBHelper.cpp
+AtumDBLogWriter.cpp
+AtumDBManager.cpp
+AtumLogDBManager.cpp
+AtumParamProtocol.cpp
+AtumParamProtocolFunctions.cpp
+Config.cpp
+Global.cpp
+GlobalGameServer.cpp
+GLogDBManager.cpp
+IOCP.cpp
+IOCPSocket.cpp
+Localization.cpp
+LogGlobal.cpp
+LogIOCP.cpp
+LogIOCPSocket.cpp
+LogServer.cpp
+md5_lib_src.cpp
+MTAutoCriticalSection.cpp
+Generating Code...
+Compiling...
+MTCriticalSection.cpp
+ODBCStatement.cpp
+Overlapped.cpp
+QueueINT.cpp
+sha256.cpp
+SocketHeader.cpp
+StdAfx.cpp
+SystemLogManager.cpp
+ThreadCheck.cpp
+VMem.cpp
+VMemPool.cpp
+WayPointManager.cpp
+WinPacket.cpp
+XOR_Lib.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+LogServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

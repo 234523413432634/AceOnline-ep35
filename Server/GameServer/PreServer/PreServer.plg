@@ -1,0 +1,202 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PreServer - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"PreServer___Win32_R_Wikigames_Eng/PreServer.res" /d "NDEBUG" "F:\CombatRivals_Source\Server\GameServer\PreServer\PreServer.rc"" 
+Creating temporary file "C:\Users\Aesir\AppData\Local\Temp\RSPEAAC.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "NDEBUG" /D "_MBCS" /D "_ATUM_PRE_SERVER" /D "WIN32" /D "_WINDOWS" /D "_ATUM_SERVER" /D "WIKIGAMES_ENG" /Fp"PreServer___Win32_R_Wikigames_Eng/PreServer.pch" /Yu"stdafx.h" /Fo"PreServer___Win32_R_Wikigames_Eng/" /Fd"PreServer___Win32_R_Wikigames_Eng/" /FD /c 
+"F:\CombatRivals_Source\Server\Common\Global.cpp"
+"F:\CombatRivals_Source\Server\Common\IOCP.cpp"
+"F:\CombatRivals_Source\Server\Common\IOCPSocket.cpp"
+"F:\CombatRivals_Source\Server\Common\md5_lib_src.cpp"
+"F:\CombatRivals_Source\Server\Common\Overlapped.cpp"
+"F:\CombatRivals_Source\Server\Common\SocketHeader.cpp"
+"F:\CombatRivals_Source\Server\Common\SystemLogManager.cpp"
+"F:\CombatRivals_Source\Server\Common\ThreadCheck.cpp"
+"F:\CombatRivals_Source\Server\Common\VMem.cpp"
+"F:\CombatRivals_Source\Server\Common\VMemPool.cpp"
+"F:\CombatRivals_Source\Server\Common\WinPacket.cpp"
+"F:\CombatRivals_Source\Server\Common\WinSocket.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\Config.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\GlobalGameServer.cpp"
+"F:\CombatRivals_Source\Server\GameServer\PreServer\Main\AccountBlockManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDateTime.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDBHelper.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDBManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumParamProtocol.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumParamProtocolFunctions.cpp"
+"F:\CombatRivals_Source\Server\GameServer\PreServer\main\AtumPreDBManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumSJ.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumThread.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\GameDataLast.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\GenericHTTPClient.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\HttpManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\InnovaLibrary.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\LoadLibrary.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\Localization.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\MapBlock.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\MapChannel.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\MapProject.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\MapWorkspace.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\Monster.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\MonsterDBAccess.cpp"
+"F:\CombatRivals_Source\Server\Common\MTAutoCriticalSection.cpp"
+"F:\CombatRivals_Source\Server\Common\MTCriticalSection.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\ODBCStatement.cpp"
+"F:\CombatRivals_Source\Server\GameServer\PreServer\Main\PreGlobal.cpp"
+"F:\CombatRivals_Source\Server\GameServer\PreServer\main\PreIOCP.cpp"
+"F:\CombatRivals_Source\Server\GameServer\PreServer\main\PreIOCPSocket.cpp"
+"F:\CombatRivals_Source\Server\GameServer\PreServer\PreServer.cpp"
+"F:\CombatRivals_Source\Server\GameServer\PreServer\Main\PreTickManager.cpp"
+"F:\CombatRivals_Source\Server\Common\QueueINT.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\SecurityManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\ServerGroup.cpp"
+"F:\CombatRivals_Source\Server\Common\sha256.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\SOAPConnect.cpp"
+"F:\CombatRivals_Source\Server\GameServer\PreServer\Main\SPToMPWinSocket.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\TickManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\WayPointManager.cpp"
+"F:\CombatRivals_Source\Server\Common\XOR_Lib.cpp"
+]
+Creating command line "cl.exe @C:\Users\Aesir\AppData\Local\Temp\RSPEAAC.tmp" 
+Creating temporary file "C:\Users\Aesir\AppData\Local\Temp\RSPEAAD.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "NDEBUG" /D "_MBCS" /D "_ATUM_PRE_SERVER" /D "WIN32" /D "_WINDOWS" /D "_ATUM_SERVER" /D "WIKIGAMES_ENG" /Fp"PreServer___Win32_R_Wikigames_Eng/PreServer.pch" /Yc"stdafx.h" /Fo"PreServer___Win32_R_Wikigames_Eng/" /Fd"PreServer___Win32_R_Wikigames_Eng/" /FD /c 
+"F:\CombatRivals_Source\Server\GameServer\PreServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Aesir\AppData\Local\Temp\RSPEAAD.tmp" 
+Creating temporary file "C:\Users\Aesir\AppData\Local\Temp\RSPEABD.tmp" with contents
+[
+winmm.lib D3dx8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"PreServer___Win32_R_Wikigames_Eng/PreServer.pdb" /map:"..\..\Bin\Release/PreServer.map" /debug /machine:I386 /out:"..\..\..\Output\Server\PreServer.exe" /libpath:"..\..\Lib" /MAPINFO:EXPORTS /MAPINFO:LINES 
+.\PreServer___Win32_R_Wikigames_Eng\Global.obj
+.\PreServer___Win32_R_Wikigames_Eng\IOCP.obj
+.\PreServer___Win32_R_Wikigames_Eng\IOCPSocket.obj
+.\PreServer___Win32_R_Wikigames_Eng\md5_lib_src.obj
+.\PreServer___Win32_R_Wikigames_Eng\Overlapped.obj
+.\PreServer___Win32_R_Wikigames_Eng\SocketHeader.obj
+.\PreServer___Win32_R_Wikigames_Eng\SystemLogManager.obj
+.\PreServer___Win32_R_Wikigames_Eng\ThreadCheck.obj
+.\PreServer___Win32_R_Wikigames_Eng\VMem.obj
+.\PreServer___Win32_R_Wikigames_Eng\VMemPool.obj
+.\PreServer___Win32_R_Wikigames_Eng\WinPacket.obj
+.\PreServer___Win32_R_Wikigames_Eng\WinSocket.obj
+.\PreServer___Win32_R_Wikigames_Eng\Config.obj
+.\PreServer___Win32_R_Wikigames_Eng\GlobalGameServer.obj
+.\PreServer___Win32_R_Wikigames_Eng\AccountBlockManager.obj
+.\PreServer___Win32_R_Wikigames_Eng\AtumDateTime.obj
+.\PreServer___Win32_R_Wikigames_Eng\AtumDBHelper.obj
+.\PreServer___Win32_R_Wikigames_Eng\AtumDBManager.obj
+.\PreServer___Win32_R_Wikigames_Eng\AtumParamProtocol.obj
+.\PreServer___Win32_R_Wikigames_Eng\AtumParamProtocolFunctions.obj
+.\PreServer___Win32_R_Wikigames_Eng\AtumPreDBManager.obj
+.\PreServer___Win32_R_Wikigames_Eng\AtumSJ.obj
+.\PreServer___Win32_R_Wikigames_Eng\AtumThread.obj
+.\PreServer___Win32_R_Wikigames_Eng\GameDataLast.obj
+.\PreServer___Win32_R_Wikigames_Eng\GenericHTTPClient.obj
+.\PreServer___Win32_R_Wikigames_Eng\HttpManager.obj
+.\PreServer___Win32_R_Wikigames_Eng\InnovaLibrary.obj
+.\PreServer___Win32_R_Wikigames_Eng\LoadLibrary.obj
+.\PreServer___Win32_R_Wikigames_Eng\Localization.obj
+.\PreServer___Win32_R_Wikigames_Eng\MapBlock.obj
+.\PreServer___Win32_R_Wikigames_Eng\MapChannel.obj
+.\PreServer___Win32_R_Wikigames_Eng\MapProject.obj
+.\PreServer___Win32_R_Wikigames_Eng\MapWorkspace.obj
+.\PreServer___Win32_R_Wikigames_Eng\Monster.obj
+.\PreServer___Win32_R_Wikigames_Eng\MonsterDBAccess.obj
+.\PreServer___Win32_R_Wikigames_Eng\MTAutoCriticalSection.obj
+.\PreServer___Win32_R_Wikigames_Eng\MTCriticalSection.obj
+.\PreServer___Win32_R_Wikigames_Eng\ODBCStatement.obj
+.\PreServer___Win32_R_Wikigames_Eng\PreGlobal.obj
+.\PreServer___Win32_R_Wikigames_Eng\PreIOCP.obj
+.\PreServer___Win32_R_Wikigames_Eng\PreIOCPSocket.obj
+.\PreServer___Win32_R_Wikigames_Eng\PreServer.obj
+.\PreServer___Win32_R_Wikigames_Eng\PreTickManager.obj
+.\PreServer___Win32_R_Wikigames_Eng\QueueINT.obj
+.\PreServer___Win32_R_Wikigames_Eng\SecurityManager.obj
+.\PreServer___Win32_R_Wikigames_Eng\ServerGroup.obj
+.\PreServer___Win32_R_Wikigames_Eng\sha256.obj
+.\PreServer___Win32_R_Wikigames_Eng\SOAPConnect.obj
+.\PreServer___Win32_R_Wikigames_Eng\SPToMPWinSocket.obj
+.\PreServer___Win32_R_Wikigames_Eng\StdAfx.obj
+.\PreServer___Win32_R_Wikigames_Eng\TickManager.obj
+.\PreServer___Win32_R_Wikigames_Eng\WayPointManager.obj
+.\PreServer___Win32_R_Wikigames_Eng\XOR_Lib.obj
+.\PreServer___Win32_R_Wikigames_Eng\PreServer.res
+]
+Creating command line "link.exe @C:\Users\Aesir\AppData\Local\Temp\RSPEABD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Global.cpp
+IOCP.cpp
+IOCPSocket.cpp
+md5_lib_src.cpp
+Overlapped.cpp
+SocketHeader.cpp
+SystemLogManager.cpp
+ThreadCheck.cpp
+VMem.cpp
+VMemPool.cpp
+WinPacket.cpp
+WinSocket.cpp
+Config.cpp
+GlobalGameServer.cpp
+AccountBlockManager.cpp
+AtumDateTime.cpp
+AtumDBHelper.cpp
+AtumDBManager.cpp
+AtumParamProtocol.cpp
+AtumParamProtocolFunctions.cpp
+Generating Code...
+Compiling...
+AtumPreDBManager.cpp
+AtumSJ.cpp
+AtumThread.cpp
+GameDataLast.cpp
+GenericHTTPClient.cpp
+HttpManager.cpp
+InnovaLibrary.cpp
+LoadLibrary.cpp
+Localization.cpp
+MapBlock.cpp
+MapChannel.cpp
+MapProject.cpp
+MapWorkspace.cpp
+Monster.cpp
+MonsterDBAccess.cpp
+MTAutoCriticalSection.cpp
+MTCriticalSection.cpp
+ODBCStatement.cpp
+PreGlobal.cpp
+PreIOCP.cpp
+Generating Code...
+Compiling...
+PreIOCPSocket.cpp
+PreServer.cpp
+PreTickManager.cpp
+QueueINT.cpp
+SecurityManager.cpp
+ServerGroup.cpp
+sha256.cpp
+SOAPConnect.cpp
+SPToMPWinSocket.cpp
+TickManager.cpp
+WayPointManager.cpp
+XOR_Lib.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PreServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

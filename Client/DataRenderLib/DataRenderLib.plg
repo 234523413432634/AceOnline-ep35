@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DataRenderLib - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP402F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../common" /I "../ProjectAtum/main" /I "../DirectXLib/main" /I "../EffectLib/main" /I "../InterfaceLib/main" /I "../SkinnedMeshLib/main" /I "../SocketLib/main" /I "../EtcLib/main" /I "main" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_ATUM_CLIENT" /D "WIKIGAMES_ENG" /Fp"DataRenderLib___Win32_R_Wikigames_Eng/DataRenderLib.pch" /YX /Fo"DataRenderLib___Win32_R_Wikigames_Eng/" /Fd"DataRenderLib___Win32_R_Wikigames_Eng/" /FD /c 
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\BoardData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\CharacterChild.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\CharacterRender.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\EnemyData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\ETCRender.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\ItemData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\MeshRender.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\MonRender.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\MonsterData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\ObjectChild.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\ObjRender.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\PetManager.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\QuestData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\RainData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\RainRender.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\ShuttleChild.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\StoreData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\SunData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\SunRender.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\UnitData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\UnitRender.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\Weapon.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\WeaponAllAttackData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\WeaponFastData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\WeaponFireData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\WeaponMineData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\WeaponMissileData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\WeaponRocketData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\WeaponShieldData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DataRenderLib\main\WSlowData.cpp"
+]
+Creating command line "cl.exe @C:\Users\COMBAT~1\AppData\Local\Temp\RSP402F.tmp" 
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP4030.tmp" with contents
+[
+/nologo /out:"../../Lib/Release/DataRenderLib.lib" 
+".\DataRenderLib___Win32_R_Wikigames_Eng\BoardData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\CharacterChild.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\CharacterRender.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\EnemyData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\ETCRender.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\ItemData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\MeshRender.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\MonRender.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\MonsterData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\ObjectChild.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\ObjRender.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\PetManager.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\QuestData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\RainData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\RainRender.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\ShuttleChild.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\StoreData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\SunData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\SunRender.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\UnitData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\UnitRender.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\Weapon.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\WeaponAllAttackData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\WeaponFastData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\WeaponFireData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\WeaponMineData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\WeaponMissileData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\WeaponRocketData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\WeaponShieldData.obj"
+".\DataRenderLib___Win32_R_Wikigames_Eng\WSlowData.obj"
+]
+Creating command line "link.exe -lib @C:\Users\COMBAT~1\AppData\Local\Temp\RSP4030.tmp"
+<h3>Output Window</h3>
+Compiling...
+BoardData.cpp
+CharacterChild.cpp
+CharacterRender.cpp
+EnemyData.cpp
+ETCRender.cpp
+ItemData.cpp
+MeshRender.cpp
+MonRender.cpp
+MonsterData.cpp
+ObjectChild.cpp
+ObjRender.cpp
+PetManager.cpp
+QuestData.cpp
+RainData.cpp
+RainRender.cpp
+ShuttleChild.cpp
+StoreData.cpp
+SunData.cpp
+SunRender.cpp
+UnitData.cpp
+UnitRender.cpp
+Weapon.cpp
+WeaponAllAttackData.cpp
+WeaponFastData.cpp
+WeaponFireData.cpp
+WeaponMineData.cpp
+WeaponMissileData.cpp
+WeaponRocketData.cpp
+WeaponShieldData.cpp
+WSlowData.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+DataRenderLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

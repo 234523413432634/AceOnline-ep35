@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Wikigames_Eng_Arena|Win32">
+      <Configuration>R_Wikigames_Eng_Arena</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{833ED903-785A-4F05-AE6A-419E0582C322}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\..\Output\Tools\</OutDir>
+    <IntDir>$(SolutionDir)..\..\Intermediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\..\DX9bLink\Include\;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>..\..\BuildResultSvr\Server\Lib\;..\..\DX9bLink\Lib\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'">
+    <OutDir>.\..\..\output\SpaceCowboyDBEditorTool\Release\</OutDir>
+    <IntDir>.\..\..\output\SpaceCowboyDBEditorTool\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\..\..\Client\ProjectAtum_Dve(Live)_KOR\DX9bLink\Include\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>..\..\BuildResultSvr\Server\Lib\;..\..\..\Client\ProjectAtum_Dve(Live)_KOR\DX9bLink\Lib\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\..\..\output\SpaceCowboyDBEditorTool\Debug\</OutDir>
+    <IntDir>.\..\..\output\SpaceCowboyDBEditorTool\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\CommonGameServer;.\Main;..\..\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_ENG;WIN32;NDEBUG;_WINDOWS;_ATUM_SERVER;WIKIGAMES_ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>$(IntDir)</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\output\SpaceCowboyDBEditorTool\Release\SpaceCowboyDBEditorTool.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\output\SpaceCowboyDBEditorTool\Release\SpaceCowboyDBEditorTool.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D3dx8.lib;odbccp32.lib;odbc32.lib;winmm.lib;QuestLoaderLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;.\Main;..\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_ATUM_SERVER;TEST140;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\..\..\output\SpaceCowboyDBEditorTool\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\..\..\output\SpaceCowboyDBEditorTool\Release\SpaceCowboyDBEditorTool.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>.\..\..\output\SpaceCowboyDBEditorTool\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\output\SpaceCowboyDBEditorTool\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\output\SpaceCowboyDBEditorTool\Release\SpaceCowboyDBEditorTool.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\output\SpaceCowboyDBEditorTool\Release\SpaceCowboyDBEditorTool.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>..\..\..\Output\Tools\SCDBEditor.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D3dx8.lib;odbccp32.lib;odbc32.lib;winmm.lib;QuestLoaderLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;.\Main;..\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;YY_NEVER_INTERACTIVE;WIN32;_ATUM_SERVER;TEST140;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\..\..\output\SpaceCowboyDBEditorTool\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\..\..\output\SpaceCowboyDBEditorTool\Debug\SpaceCowboyDBEditorTool.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader />
+      <ObjectFileName>.\..\..\output\SpaceCowboyDBEditorTool\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\output\SpaceCowboyDBEditorTool\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\output\SpaceCowboyDBEditorTool\Debug\SpaceCowboyDBEditorTool.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\output\SpaceCowboyDBEditorTool\Debug\SpaceCowboyDBEditorTool.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>..\..\..\Output\Tools\SCDBEditor_debug.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D3dx8.lib;odbccp32.lib;odbc32.lib;winmm.lib;QuestLoaderLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\Global.cpp" />
+    <ClCompile Include="..\..\Common\md5_lib_src.cpp" />
+    <ClCompile Include="..\..\Common\SocketHeader.cpp" />
+    <ClCompile Include="..\..\Common\SystemLogManager.cpp" />
+    <ClCompile Include="..\..\Common\VMem.cpp" />
+    <ClCompile Include="..\..\Common\VMemPool.cpp" />
+    <ClCompile Include="..\..\Common\WinPacket.cpp" />
+    <ClCompile Include="..\..\Common\WinSocket.cpp" />
+    <ClCompile Include="..\..\Common\XOR_Lib.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumDateTime.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumDBHelper.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumParamProtocol.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumParamProtocolFunctions.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumSJ.cpp" />
+    <ClCompile Include="..\CommonGameServer\BrowseForFolder.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\GridCell.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\GridCellBase.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\GridCtrl.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\GridDropTarget.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\InPlaceEdit.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\TitleTip.cpp" />
+    <ClCompile Include="..\CommonGameServer\Localization.cpp" />
+    <ClCompile Include="..\CommonGameServer\ODBCStatement.cpp" />
+    <ClCompile Include="..\CommonGameServer\Quest.cpp" />
+    <ClCompile Include="..\CommonGameServer\UserVariable.cpp" />
+    <ClCompile Include="..\CommonGameServer\WayPointManager.cpp" />
+    <ClCompile Include="EngineItemDetailDlg.cpp" />
+    <ClCompile Include="EngineItemDlg.cpp" />
+    <ClCompile Include="LinkDetailDlg.cpp" />
+    <ClCompile Include="LogTabConnection.cpp" />
+    <ClCompile Include="LogTabGuildItem.cpp" />
+    <ClCompile Include="LogTabItem.cpp" />
+    <ClCompile Include="LogTabServerIntegration.cpp" />
+    <ClCompile Include="LogTabUser.cpp" />
+    <ClCompile Include="MapEditorDetailDlg.cpp" />
+    <ClCompile Include="MapEditorDlg.cpp" />
+    <ClCompile Include="MonsterAttackDetailDlg.cpp" />
+    <ClCompile Include="MonsterAttackDlg.cpp" />
+    <ClCompile Include="MonsterDetailDlg.cpp" />
+    <ClCompile Include="MonsterDlg.cpp" />
+    <ClCompile Include="MonsterDropDetailDlg.cpp" />
+    <ClCompile Include="MonsterDropDlg.cpp" />
+    <ClCompile Include="MyTabCtrl.cpp" />
+    <ClCompile Include="PreviewDlg.cpp" />
+    <ClCompile Include="QuestEditorDlg.cpp" />
+    <ClCompile Include="QuestLoadDlg.cpp" />
+    <ClCompile Include="SCGridHelper.cpp" />
+    <ClCompile Include="SCLogAdminDlg.cpp" />
+    <ClCompile Include="SelectItemDlg.cpp" />
+    <ClCompile Include="SetLanguageDlg.cpp" />
+    <ClCompile Include="SpaceCowboyDBEditorTool.cpp" />
+    <ClCompile Include="SpaceCowboyDBEditorToolDlg.cpp" />
+    <ClCompile Include="StatisticPage100Dlg.cpp" />
+    <ClCompile Include="StatisticPage101Dlg.cpp" />
+    <ClCompile Include="StatisticPage102Dlg.cpp" />
+    <ClCompile Include="StatisticPage1Dlg.cpp" />
+    <ClCompile Include="StatisticPage2Dlg.cpp" />
+    <ClCompile Include="StatisticPage3Dlg.cpp" />
+    <ClCompile Include="StatisticPage4Dlg.cpp" />
+    <ClCompile Include="StatisticPage5Dlg.cpp" />
+    <ClCompile Include="StatisticPage61Dlg.cpp" />
+    <ClCompile Include="StatisticPage62Dlg.cpp" />
+    <ClCompile Include="StatisticPage6Dlg.cpp" />
+    <ClCompile Include="StatisticPage71Dlg.cpp" />
+    <ClCompile Include="StatisticPage7Dlg.cpp" />
+    <ClCompile Include="StatisticPage8Dlg.cpp" />
+    <ClCompile Include="StatisticPage97Dlg.cpp" />
+    <ClCompile Include="StatisticPage98Dlg.cpp" />
+    <ClCompile Include="StatisticPage99Dlg.cpp" />
+    <ClCompile Include="StatisticPage9Dlg.cpp" />
+    <ClCompile Include="StatisticSheetDlg.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="WeaponItem.cpp" />
+    <ClCompile Include="WeaponItemDetail.cpp" />
+    <ClCompile Include="WriteLog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpaceCowboyDBEditorTool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\md5_lib_src.h" />
+    <ClInclude Include="..\..\Common\XOR_Lib.h" />
+    <ClInclude Include="..\CommonGameServer\AtumSJ.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\CellRange.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\GridCell.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\GridCellBase.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\GridCtrl.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\GridDropTarget.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\InPlaceEdit.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\MemDC.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\TitleTip.h" />
+    <ClInclude Include="..\CommonGameServer\ODBCStatement.h" />
+    <ClInclude Include="..\CommonGameServer\Quest.h" />
+    <ClInclude Include="..\CommonGameServer\QuestLoaderParser.h" />
+    <ClInclude Include="..\CommonGameServer\WayPointManager.h" />
+    <ClInclude Include="EngineItemDetailDlg.h" />
+    <ClInclude Include="EngineItemDlg.h" />
+    <ClInclude Include="LinkDetailDlg.h" />
+    <ClInclude Include="LogTabConnection.h" />
+    <ClInclude Include="LogTabGuildItem.h" />
+    <ClInclude Include="LogTabItem.h" />
+    <ClInclude Include="LogTabServerIntegration.h" />
+    <ClInclude Include="LogTabUser.h" />
+    <ClInclude Include="MapEditorDetailDlg.h" />
+    <ClInclude Include="MapEditorDlg.h" />
+    <ClInclude Include="MonsterAttackDetailDlg.h" />
+    <ClInclude Include="MonsterAttackDlg.h" />
+    <ClInclude Include="MonsterDetailDlg.h" />
+    <ClInclude Include="MonsterDlg.h" />
+    <ClInclude Include="MonsterDropDetailDlg.h" />
+    <ClInclude Include="MonsterDropDlg.h" />
+    <ClInclude Include="MyTabCtrl.h" />
+    <ClInclude Include="PreviewDlg.h" />
+    <ClInclude Include="QuestEditorDlg.h" />
+    <ClInclude Include="QuestLoadDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SCGridHelper.h" />
+    <ClInclude Include="SCLogAdminDlg.h" />
+    <ClInclude Include="SelectItemDlg.h" />
+    <ClInclude Include="SetLanguageDlg.h" />
+    <ClInclude Include="SpaceCowboyDBEditorTool.h" />
+    <ClInclude Include="SpaceCowboyDBEditorToolDlg.h" />
+    <ClInclude Include="StatisticPage100Dlg.h" />
+    <ClInclude Include="StatisticPage101Dlg.h" />
+    <ClInclude Include="StatisticPage102Dlg.h" />
+    <ClInclude Include="StatisticPage1Dlg.h" />
+    <ClInclude Include="StatisticPage2Dlg.h" />
+    <ClInclude Include="StatisticPage3Dlg.h" />
+    <ClInclude Include="StatisticPage4Dlg.h" />
+    <ClInclude Include="StatisticPage5Dlg.h" />
+    <ClInclude Include="StatisticPage61Dlg.h" />
+    <ClInclude Include="StatisticPage62Dlg.h" />
+    <ClInclude Include="StatisticPage6Dlg.h" />
+    <ClInclude Include="StatisticPage71Dlg.h" />
+    <ClInclude Include="StatisticPage7Dlg.h" />
+    <ClInclude Include="StatisticPage8Dlg.h" />
+    <ClInclude Include="StatisticPage97Dlg.h" />
+    <ClInclude Include="StatisticPage98Dlg.h" />
+    <ClInclude Include="StatisticPage99Dlg.h" />
+    <ClInclude Include="StatisticPage9Dlg.h" />
+    <ClInclude Include="StatisticSheetDlg.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="WeaponItem.h" />
+    <ClInclude Include="WeaponItemDetail.h" />
+    <ClInclude Include="WriteLog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\ItemEditer\res\ItemEditer.ico" />
+    <Image Include="res\SpaceCowboyDBEditorTool.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\SpaceCowboyDBEditorTool.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="SpaceCowboyDBEditorToolModifyList.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

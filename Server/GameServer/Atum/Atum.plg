@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Atum - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Matteo\AppData\Local\Temp\RSP51BC.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /I "..\CommonGameServer\FTP" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_MGAME_RELEASE" /D "WIKIGAMES_ENG" /FR"Atum___Win32_R_Wikigames_Eng/" /Fp"Atum___Win32_R_Wikigames_Eng/Atum.pch" /Yu"stdafx.h" /Fo"Atum___Win32_R_Wikigames_Eng/" /Fd"Atum___Win32_R_Wikigames_Eng/" /FD /c 
+"G:\CombatRivals_Source\Server\GameServer\Atum\AtumDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Matteo\AppData\Local\Temp\RSP51BC.tmp" 
+Creating temporary file "C:\Users\Matteo\AppData\Local\Temp\RSP51BD.tmp" with contents
+[
+wininet.lib winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Atum___Win32_R_Wikigames_Eng/SpaceCowboy.pdb" /machine:I386 /out:"..\..\..\Output\Client\SpaceCowboy.exe" 
+.\Atum___Win32_R_Wikigames_Eng\Atum.obj
+.\Atum___Win32_R_Wikigames_Eng\AtumDlg.obj
+.\Atum___Win32_R_Wikigames_Eng\AtumParamProtocol.obj
+.\Atum___Win32_R_Wikigames_Eng\AtumParamProtocolFunctions.obj
+.\Atum___Win32_R_Wikigames_Eng\FTPManager.obj
+.\Atum___Win32_R_Wikigames_Eng\HttpManager.obj
+.\Atum___Win32_R_Wikigames_Eng\Iexplore.obj
+.\Atum___Win32_R_Wikigames_Eng\KbcBmp.obj
+.\Atum___Win32_R_Wikigames_Eng\KbcButton.obj
+.\Atum___Win32_R_Wikigames_Eng\ListBoxEBX.obj
+.\Atum___Win32_R_Wikigames_Eng\MGameDecryption.obj
+.\Atum___Win32_R_Wikigames_Eng\PreUpdateWinSocket.obj
+.\Atum___Win32_R_Wikigames_Eng\RegistryControl.obj
+.\Atum___Win32_R_Wikigames_Eng\selectgameserverdlg.obj
+.\Atum___Win32_R_Wikigames_Eng\SocketHeader.obj
+.\Atum___Win32_R_Wikigames_Eng\StdAfx.obj
+.\Atum___Win32_R_Wikigames_Eng\WinPacket.obj
+.\Atum___Win32_R_Wikigames_Eng\WinSocket.obj
+.\Atum___Win32_R_Wikigames_Eng\XOR_Lib.obj
+.\Atum___Win32_R_Wikigames_Eng\Atum.res
+]
+Creating command line "link.exe @C:\Users\Matteo\AppData\Local\Temp\RSP51BD.tmp"
+<h3>Output Window</h3>
+Compiling...
+AtumDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SpaceCowboy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

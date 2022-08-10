@@ -1,0 +1,316 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AtumAdminTool - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"AtumAdminTool___Win32_R_Wikigames_Eng/AtumAdminTool.res" /d "NDEBUG" "G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\AtumAdminTool.rc"" 
+Creating temporary file "C:\Users\Matteo\AppData\Local\Temp\RSP7237.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_ATUM_SERVER" /D "_ATUM_ADMIN_RELEASE" /D "WIKIGAMES_ENG" /FR"AtumAdminTool___Win32_R_Wikigames_Eng/" /Fp"AtumAdminTool___Win32_R_Wikigames_Eng/AtumAdminTool.pch" /Yu"stdafx.h" /Fo"AtumAdminTool___Win32_R_Wikigames_Eng/" /Fd"AtumAdminTool___Win32_R_Wikigames_Eng/" /FD /c 
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\AccountInfoDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\AdminAutoNoticeDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\AtumAdminTool.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\AtumAdminToolDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDateTime.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDBHelper.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDBLogWriter.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumParamProtocol.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumParamProtocolFunctions.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumSJ.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumThread.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\BlockAccountDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\BlockAccountListDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\BrowseForFolder.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\CharacterInfoDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\DeclarationOfWar.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\DeletedCharacter.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\editguilddlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\ExpViewerDlg.cpp"
+"G:\CombatRivals_Source\Server\Common\Global.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\GridCtrl\GridCell.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\GridCtrl\GridCellBase.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\GridCtrl\GridCtrl.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\GridCtrl\GridDropTarget.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\historycombobox.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\InfluenceRateGridCtrl.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\InflWarListDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\GridCtrl\InPlaceEdit.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\LeaderElection.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\Localization.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\logtabblockaccount.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\LogTabConnection.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\LogTabGuildItem.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\LogTabItem.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\LogTabServerIntegration.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\LogTabUser.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\Security\md5.cpp"
+"G:\CombatRivals_Source\Server\Common\md5_lib_src.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\Security\metafile.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\MGameMonitor.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\ModifyItemDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\MyTabCtrl.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\ODBCStatement.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\PetitionManagementDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\PremiumInfoDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\PWDDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\ReportCtrl.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\SCAdminWinSocket.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SCBadUserAdminDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SCGridHelper.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SCGuildAdminDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SCHappyHourEventAdminDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SCItemEventDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SCLogAdminDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SCOutPostDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\scserveradmindlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SCStrategyPointAdminDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SCUserAdminDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SelectItemDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SetItemEv.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\SetLanguageDlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\Security\shieldSecurity.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\Security\shieldSecurityDll.cpp"
+"G:\CombatRivals_Source\Server\Common\SocketHeader.cpp"
+"G:\CombatRivals_Source\Server\Common\SystemLogManager.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\TickManager.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\GridCtrl\TitleTip.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\TrayIcon.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\Security\utility.cpp"
+"G:\CombatRivals_Source\Server\Common\VMem.cpp"
+"G:\CombatRivals_Source\Server\Common\VMemPool.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\WavePlayer.cpp"
+"G:\CombatRivals_Source\Server\GameServer\CommonGameServer\WayPointManager.cpp"
+"G:\CombatRivals_Source\Server\Common\WinPacket.cpp"
+"G:\CombatRivals_Source\Server\Common\WinSocket.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\wrankingmanagement.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\wrsevicesettingdlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\wrupdateranking.cpp"
+"G:\CombatRivals_Source\Server\Common\XOR_Lib.cpp"
+]
+Creating command line "cl.exe @C:\Users\Matteo\AppData\Local\Temp\RSP7237.tmp" 
+Creating temporary file "C:\Users\Matteo\AppData\Local\Temp\RSP7238.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /I ".." /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_ATUM_SERVER" /D "_ATUM_ADMIN_RELEASE" /D "WIKIGAMES_ENG" /FR"AtumAdminTool___Win32_R_Wikigames_Eng/" /Fp"AtumAdminTool___Win32_R_Wikigames_Eng/AtumAdminTool.pch" /Yu"stdafx.h" /Fo"AtumAdminTool___Win32_R_Wikigames_Eng/" /Fd"AtumAdminTool___Win32_R_Wikigames_Eng/" /FD /c 
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\cashshopmanagementdlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\dlgmsgbox.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\dlgsetinfluencerate.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\eventmonstermanagementdlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\guildmarkrecognitiondlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\seteventmonsterdlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\sethappyev.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\setlimitusercountdlg.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\setpcbanghappyev.cpp"
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\Main\xortestdlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Matteo\AppData\Local\Temp\RSP7238.tmp" 
+Creating temporary file "C:\Users\Matteo\AppData\Local\Temp\RSP7239.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_ATUM_SERVER" /D "_ATUM_ADMIN_RELEASE" /D "WIKIGAMES_ENG" /FR"AtumAdminTool___Win32_R_Wikigames_Eng/" /Fp"AtumAdminTool___Win32_R_Wikigames_Eng/AtumAdminTool.pch" /Yc"stdafx.h" /Fo"AtumAdminTool___Win32_R_Wikigames_Eng/" /Fd"AtumAdminTool___Win32_R_Wikigames_Eng/" /FD /c 
+"G:\CombatRivals_Source\Server\GameServer\AtumAdminTool\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Matteo\AppData\Local\Temp\RSP7239.tmp" 
+Creating temporary file "C:\Users\Matteo\AppData\Local\Temp\RSP723A.tmp" with contents
+[
+D3dx8.lib odbccp32.lib odbc32.lib winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"AtumAdminTool___Win32_R_Wikigames_Eng/AdminTool_Main.pdb" /machine:I386 /out:"..\..\..\Output\Tools\AdminTool_Main.exe" 
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AccountInfoDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AdminAutoNoticeDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumAdminTool.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumAdminToolDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumDateTime.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumDBHelper.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumDBLogWriter.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumParamProtocol.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumParamProtocolFunctions.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumSJ.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumThread.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\BlockAccountDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\BlockAccountListDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\BrowseForFolder.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\cashshopmanagementdlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\CharacterInfoDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\DeclarationOfWar.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\DeletedCharacter.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\dlgmsgbox.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\dlgsetinfluencerate.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\editguilddlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\eventmonstermanagementdlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\ExpViewerDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\Global.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\GridCell.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\GridCellBase.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\GridCtrl.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\GridDropTarget.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\guildmarkrecognitiondlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\HistoryComboBox.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\InfluenceRateGridCtrl.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\InflWarListDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\InPlaceEdit.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\LeaderElection.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\Localization.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\logtabblockaccount.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\LogTabConnection.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\LogTabGuildItem.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\LogTabItem.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\LogTabServerIntegration.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\LogTabUser.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\md5.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\md5_lib_src.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\metafile.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\MGameMonitor.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\ModifyItemDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\MyTabCtrl.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\ODBCStatement.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\PetitionManagementDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\PremiumInfoDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\PWDDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\ReportCtrl.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCAdminWinSocket.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCBadUserAdminDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCGridHelper.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCGuildAdminDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCHappyHourEventAdminDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCItemEventDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCLogAdminDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCOutPostDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\scserveradmindlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCStrategyPointAdminDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SCUserAdminDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SelectItemDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\seteventmonsterdlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\sethappyev.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SetItemEv.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SetLanguageDlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\setlimitusercountdlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\setpcbanghappyev.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\shieldSecurity.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\shieldSecurityDll.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SocketHeader.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\StdAfx.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\SystemLogManager.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\TickManager.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\TitleTip.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\TrayIcon.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\utility.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\VMem.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\VMemPool.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\WavePlayer.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\WayPointManager.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\WinPacket.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\WinSocket.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\wrankingmanagement.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\wrsevicesettingdlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\wrupdateranking.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\XOR_Lib.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\xortestdlg.obj
+.\AtumAdminTool___Win32_R_Wikigames_Eng\AtumAdminTool.res
+]
+Creating command line "link.exe @C:\Users\Matteo\AppData\Local\Temp\RSP723A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AccountInfoDlg.cpp
+AdminAutoNoticeDlg.cpp
+AtumAdminTool.cpp
+AtumAdminToolDlg.cpp
+AtumDateTime.cpp
+AtumDBHelper.cpp
+AtumDBLogWriter.cpp
+AtumParamProtocol.cpp
+AtumParamProtocolFunctions.cpp
+AtumSJ.cpp
+AtumThread.cpp
+BlockAccountDlg.cpp
+BlockAccountListDlg.cpp
+BrowseForFolder.cpp
+CharacterInfoDlg.cpp
+DeclarationOfWar.cpp
+DeletedCharacter.cpp
+editguilddlg.cpp
+ExpViewerDlg.cpp
+Global.cpp
+Generating Code...
+Compiling...
+GridCell.cpp
+GridCellBase.cpp
+GridCtrl.cpp
+GridDropTarget.cpp
+historycombobox.cpp
+InfluenceRateGridCtrl.cpp
+InflWarListDlg.cpp
+InPlaceEdit.cpp
+LeaderElection.cpp
+Localization.cpp
+logtabblockaccount.cpp
+LogTabConnection.cpp
+LogTabGuildItem.cpp
+LogTabItem.cpp
+LogTabServerIntegration.cpp
+LogTabUser.cpp
+md5.cpp
+G:\CombatRivals_Source\Server\GameServer\CommonGameServer\Security\md5.cpp(7) : warning C4305: 'initializing' : truncation from 'const int' to 'const char'
+G:\CombatRivals_Source\Server\GameServer\CommonGameServer\Security\md5.cpp(7) : warning C4309: 'initializing' : truncation of constant value
+md5_lib_src.cpp
+metafile.cpp
+MGameMonitor.cpp
+Generating Code...
+Compiling...
+ModifyItemDlg.cpp
+MyTabCtrl.cpp
+ODBCStatement.cpp
+PetitionManagementDlg.cpp
+PremiumInfoDlg.cpp
+PWDDlg.cpp
+ReportCtrl.cpp
+SCAdminWinSocket.cpp
+SCBadUserAdminDlg.cpp
+SCGridHelper.cpp
+SCGuildAdminDlg.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\xmemory(34) : error C2660: 'new' : function does not take 2 parameters
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\xmemory(66) : see reference to function template instantiation 'void __cdecl std::_Construct(struct ITEM_GENERAL_READABLE *,const struct ITEM_GENERAL_READABLE &)' being compiled
+SCHappyHourEventAdminDlg.cpp
+SCItemEventDlg.cpp
+SCLogAdminDlg.cpp
+SCOutPostDlg.cpp
+scserveradmindlg.cpp
+SCStrategyPointAdminDlg.cpp
+SCUserAdminDlg.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\xmemory(34) : error C2660: 'new' : function does not take 2 parameters
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\xmemory(66) : see reference to function template instantiation 'void __cdecl std::_Construct(struct ITEM_GENERAL_READABLE *,const struct ITEM_GENERAL_READABLE &)' being compiled
+SelectItemDlg.cpp
+SetItemEv.cpp
+Generating Code...
+Compiling...
+SetLanguageDlg.cpp
+shieldSecurity.cpp
+shieldSecurityDll.cpp
+SocketHeader.cpp
+SystemLogManager.cpp
+TickManager.cpp
+TitleTip.cpp
+TrayIcon.cpp
+utility.cpp
+VMem.cpp
+VMemPool.cpp
+WavePlayer.cpp
+WayPointManager.cpp
+WinPacket.cpp
+WinSocket.cpp
+wrankingmanagement.cpp
+wrsevicesettingdlg.cpp
+wrupdateranking.cpp
+XOR_Lib.cpp
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+AdminTool_Main.exe - 2 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

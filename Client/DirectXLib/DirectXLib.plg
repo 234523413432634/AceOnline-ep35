@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DirectXLib - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP38B7.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../common" /I "../ProjectAtum/main" /I "../DataRenderLib/main" /I "../SkinnedMeshLib/main" /I "../EtcLib/main" /I "../InterfaceLib/main" /I "../SocketLib/main" /I "../EffectLib/main" /I "main" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_ATUM_CLIENT" /D "WIKIGAMES_ENG" /Fp"DirectXLib___Win32_R_Wikigames_Eng/DirectXLib.pch" /YX /Fo"DirectXLib___Win32_R_Wikigames_Eng/" /Fd"DirectXLib___Win32_R_Wikigames_Eng/" /FD /c 
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\DirectXLib\main\d3dutil.cpp"
+]
+Creating command line "cl.exe @C:\Users\COMBAT~1\AppData\Local\Temp\RSP38B7.tmp" 
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP38B8.tmp" with contents
+[
+/nologo /out:"../../Lib/Release/DirectXLib.lib" 
+".\DirectXLib___Win32_R_Wikigames_Eng\AtumSound.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\Camera.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\d3dapp.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\d3denumeration.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\D3DHanFont.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\d3dsettings.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\d3dutil.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\DSound3D.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\dsutil.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\dxutil.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\JoyStickFreedback.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\JoyStickInput.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\KeyBoardInput.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\MusicMP3.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\MusicMP3Ex.obj"
+".\DirectXLib___Win32_R_Wikigames_Eng\WaveFile.obj"
+]
+Creating command line "link.exe -lib @C:\Users\COMBAT~1\AppData\Local\Temp\RSP38B8.tmp"
+<h3>Output Window</h3>
+Compiling...
+d3dutil.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+DirectXLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

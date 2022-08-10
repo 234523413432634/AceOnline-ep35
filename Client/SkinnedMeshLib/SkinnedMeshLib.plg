@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SkinnedMeshLib - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSP307F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../DataRenderLib/main" /I "../InterfaceLib/main" /I "../common" /I "../ProjectAtum/main" /I "../DirectXLib/main" /I "../EtcLib/main" /I "../SocketLib/main" /I "../EffectLib/main" /I "main" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_ATUM_CLIENT" /D "WIKIGAMES_ENG" /Fp"SkinnedMeshLib___Win32_R_Wikigames_Eng/SkinnedMeshLib.pch" /YX /Fo"SkinnedMeshLib___Win32_R_Wikigames_Eng/" /Fd"SkinnedMeshLib___Win32_R_Wikigames_Eng/" /FD /c 
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\SkinnedMeshLib\main\SkinnedMesh.cpp"
+]
+Creating command line "cl.exe @C:\Users\COMBAT~1\AppData\Local\Temp\RSP307F.tmp" 
+Creating command line "link.exe -lib /nologo /out:"../../Lib/Release/SkinnedMeshLib.lib"  ".\SkinnedMeshLib___Win32_R_Wikigames_Eng\SkinnedMesh.obj" "
+<h3>Output Window</h3>
+Compiling...
+SkinnedMesh.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+SkinnedMeshLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

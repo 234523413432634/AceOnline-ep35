@@ -1,0 +1,50 @@
+aion_qa  	9.7.1.16
+aion_pts  	9.7.1.16
+aion_live 	9.7.1.16
+
+aceonline_qa 	N/A
+aceonline_pts	9.7.1.16
+aceonline_live  9.7.1.16
+
+pb_qa 		9.7.1.16
+pb_pts		9.7.1.16
+pb_pts2         9.7.1.16
+pb_live 	9.7.1.16
+
+rfonline_qa 	9.7.1.16000
+rfonline_pts 	9.7.1.16000
+rfonline_live 	9.7.1.16000
+
+l2_qa 		9.7.1.16
+l2_pts 		9.7.1.16
+l2_live 	9.7.1.16
+
+eu-l2_qa	9.7.1.16
+eu-l2_pts       9.7.1.16
+eu-l2_live      9.7.1.16
+
+atlantica_qa    9.9.9.9
+atlantica_pts   9.9.9.9
+atlantica_live	9.9.9.9
+
+r2online_qa     N/A
+r2online_pts    9.7.1.16
+r2online_live   9.7.1.16
+
+sun_qa          9.7.1.10
+sun_pts         9.7.1.16
+sun_live        9.7.1.16
+
+requiem_qa	9.7.1.17
+requiem_live    9.7.1.17
+
+ragnarok_qa	9.7.1.16
+ragnarok_live   9.7.1.16
+
+ru-apb_qa       9.7.1.16
+ru-apb_pts      9.7.1.16
+ru-apb_live     9.7.1.16
+
+us-apb_qa	9.7.1.16
+us-apb_pts	9.7.1.16
+us-apb_live	9.7.1.16

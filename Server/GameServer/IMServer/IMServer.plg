@@ -1,0 +1,182 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IMServer - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Aesir\AppData\Local\Temp\RSPB13D.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "NDEBUG" /D "_MBCS" /D "_ATUM_IM_SERVER" /D "WIN32" /D "_WINDOWS" /D "_ATUM_SERVER" /D "WIKIGAMES_ENG" /D "ARENA" /Fr"IMServer___Win32_R_Wikigames_Eng/" /Fp"IMServer___Win32_R_Wikigames_Eng/IMServer.pch" /Yu"stdafx.h" /Fo"IMServer___Win32_R_Wikigames_Eng/" /Fd"IMServer___Win32_R_Wikigames_Eng/" /FD /c 
+"F:\CombatRivals_Source\Server\GameServer\IMServer\Main\ANoticeManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDateTime.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDBHelper.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumDBManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\main\AtumIMDBManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumParamProtocol.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumParamProtocolFunctions.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumSJ.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\AtumThread.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\ChatBlockManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\ChatRoom.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\ChatRoomManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\Config.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\CountdownChecker.cpp"
+"F:\CombatRivals_Source\Server\Common\Global.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\GlobalGameServer.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\Guild.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\Main\IMGlobal.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\main\IMIOCP.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\main\IMIOCPSocket.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\Main\IMParty.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\IMServer.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\Main\IMTickManager.cpp"
+"F:\CombatRivals_Source\Server\Common\IOCP.cpp"
+"F:\CombatRivals_Source\Server\Common\IOCPSocket.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\Localization.cpp"
+"F:\CombatRivals_Source\Server\Common\md5_lib_src.cpp"
+"F:\CombatRivals_Source\Server\Common\MTAutoCriticalSection.cpp"
+"F:\CombatRivals_Source\Server\Common\MTCriticalSection.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\ODBCStatement.cpp"
+"F:\CombatRivals_Source\Server\Common\Overlapped.cpp"
+"F:\CombatRivals_Source\Server\GameServer\IMServer\main\PreIMWinSocket.cpp"
+"F:\CombatRivals_Source\Server\Common\QueueINT.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\SecurityManager.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\ServerGroup.cpp"
+"F:\CombatRivals_Source\Server\Common\sha256.cpp"
+"F:\CombatRivals_Source\Server\Common\SocketHeader.cpp"
+"F:\CombatRivals_Source\Server\Common\SystemLogManager.cpp"
+"F:\CombatRivals_Source\Server\Common\ThreadCheck.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\TickManager.cpp"
+"F:\CombatRivals_Source\Server\Common\VMem.cpp"
+"F:\CombatRivals_Source\Server\Common\VMemPool.cpp"
+"F:\CombatRivals_Source\Server\GameServer\CommonGameServer\WayPointManager.cpp"
+"F:\CombatRivals_Source\Server\Common\WinPacket.cpp"
+"F:\CombatRivals_Source\Server\Common\WinSocket.cpp"
+"F:\CombatRivals_Source\Server\Common\XOR_Lib.cpp"
+]
+Creating command line "cl.exe @C:\Users\Aesir\AppData\Local\Temp\RSPB13D.tmp" 
+Creating temporary file "C:\Users\Aesir\AppData\Local\Temp\RSPB13E.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /I "." /I "..\..\Common" /I ".\Main" /I "..\CommonGameServer" /D "NDEBUG" /D "_MBCS" /D "_ATUM_IM_SERVER" /D "WIN32" /D "_WINDOWS" /D "_ATUM_SERVER" /D "WIKIGAMES_ENG" /D "ARENA" /Fr"IMServer___Win32_R_Wikigames_Eng/" /Fp"IMServer___Win32_R_Wikigames_Eng/IMServer.pch" /Yc"stdafx.h" /Fo"IMServer___Win32_R_Wikigames_Eng/" /Fd"IMServer___Win32_R_Wikigames_Eng/" /FD /c 
+"F:\CombatRivals_Source\Server\GameServer\IMServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Aesir\AppData\Local\Temp\RSPB13E.tmp" 
+Creating temporary file "C:\Users\Aesir\AppData\Local\Temp\RSPB14F.tmp" with contents
+[
+winmm.lib D3dx8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"IMServer___Win32_R_Wikigames_Eng/IMServer.pdb" /map:"..\..\Bin\Release/IMServer.map" /debug /machine:I386 /out:"..\..\..\Output\Server\IMServer.exe" /MAPINFO:EXPORTS /MAPINFO:LINES 
+.\IMServer___Win32_R_Wikigames_Eng\ANoticeManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\AtumDateTime.obj
+.\IMServer___Win32_R_Wikigames_Eng\AtumDBHelper.obj
+.\IMServer___Win32_R_Wikigames_Eng\AtumDBManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\AtumIMDBManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\AtumParamProtocol.obj
+.\IMServer___Win32_R_Wikigames_Eng\AtumParamProtocolFunctions.obj
+.\IMServer___Win32_R_Wikigames_Eng\AtumSJ.obj
+.\IMServer___Win32_R_Wikigames_Eng\AtumThread.obj
+.\IMServer___Win32_R_Wikigames_Eng\ChatBlockManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\ChatRoom.obj
+.\IMServer___Win32_R_Wikigames_Eng\ChatRoomManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\Config.obj
+.\IMServer___Win32_R_Wikigames_Eng\CountdownChecker.obj
+.\IMServer___Win32_R_Wikigames_Eng\Global.obj
+.\IMServer___Win32_R_Wikigames_Eng\GlobalGameServer.obj
+.\IMServer___Win32_R_Wikigames_Eng\Guild.obj
+.\IMServer___Win32_R_Wikigames_Eng\IMGlobal.obj
+.\IMServer___Win32_R_Wikigames_Eng\IMIOCP.obj
+.\IMServer___Win32_R_Wikigames_Eng\IMIOCPSocket.obj
+.\IMServer___Win32_R_Wikigames_Eng\IMParty.obj
+.\IMServer___Win32_R_Wikigames_Eng\IMServer.obj
+.\IMServer___Win32_R_Wikigames_Eng\IMTickManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\IOCP.obj
+.\IMServer___Win32_R_Wikigames_Eng\IOCPSocket.obj
+.\IMServer___Win32_R_Wikigames_Eng\Localization.obj
+.\IMServer___Win32_R_Wikigames_Eng\md5_lib_src.obj
+.\IMServer___Win32_R_Wikigames_Eng\MTAutoCriticalSection.obj
+.\IMServer___Win32_R_Wikigames_Eng\MTCriticalSection.obj
+.\IMServer___Win32_R_Wikigames_Eng\ODBCStatement.obj
+.\IMServer___Win32_R_Wikigames_Eng\Overlapped.obj
+.\IMServer___Win32_R_Wikigames_Eng\PreIMWinSocket.obj
+.\IMServer___Win32_R_Wikigames_Eng\QueueINT.obj
+.\IMServer___Win32_R_Wikigames_Eng\SecurityManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\ServerGroup.obj
+.\IMServer___Win32_R_Wikigames_Eng\sha256.obj
+.\IMServer___Win32_R_Wikigames_Eng\SocketHeader.obj
+.\IMServer___Win32_R_Wikigames_Eng\StdAfx.obj
+.\IMServer___Win32_R_Wikigames_Eng\SystemLogManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\ThreadCheck.obj
+.\IMServer___Win32_R_Wikigames_Eng\TickManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\VMem.obj
+.\IMServer___Win32_R_Wikigames_Eng\VMemPool.obj
+.\IMServer___Win32_R_Wikigames_Eng\WayPointManager.obj
+.\IMServer___Win32_R_Wikigames_Eng\WinPacket.obj
+.\IMServer___Win32_R_Wikigames_Eng\WinSocket.obj
+.\IMServer___Win32_R_Wikigames_Eng\XOR_Lib.obj
+.\IMServer___Win32_R_Wikigames_Eng\IMServer.res
+]
+Creating command line "link.exe @C:\Users\Aesir\AppData\Local\Temp\RSPB14F.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ANoticeManager.cpp
+AtumDateTime.cpp
+AtumDBHelper.cpp
+AtumDBManager.cpp
+AtumIMDBManager.cpp
+AtumParamProtocol.cpp
+AtumParamProtocolFunctions.cpp
+AtumSJ.cpp
+AtumThread.cpp
+ChatBlockManager.cpp
+ChatRoom.cpp
+ChatRoomManager.cpp
+Config.cpp
+CountdownChecker.cpp
+Global.cpp
+GlobalGameServer.cpp
+Guild.cpp
+IMGlobal.cpp
+IMIOCP.cpp
+IMIOCPSocket.cpp
+Generating Code...
+Compiling...
+IMParty.cpp
+IMServer.cpp
+IMTickManager.cpp
+IOCP.cpp
+IOCPSocket.cpp
+Localization.cpp
+md5_lib_src.cpp
+MTAutoCriticalSection.cpp
+MTCriticalSection.cpp
+ODBCStatement.cpp
+Overlapped.cpp
+PreIMWinSocket.cpp
+QueueINT.cpp
+SecurityManager.cpp
+ServerGroup.cpp
+sha256.cpp
+SocketHeader.cpp
+SystemLogManager.cpp
+ThreadCheck.cpp
+TickManager.cpp
+Generating Code...
+Compiling...
+VMem.cpp
+VMemPool.cpp
+WayPointManager.cpp
+WinPacket.cpp
+WinSocket.cpp
+XOR_Lib.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+IMServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

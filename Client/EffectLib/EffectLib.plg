@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EffectLib - Win32 R_Wikigames_Eng--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSPA21F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../common" /I "../ProjectAtum/main" /I "../DirectXLib/main" /I "../DataRenderLib/main" /I "../SkinnedMeshLib/main" /I "../EtcLib/main" /I "../SocketLib/main" /I "../InterfaceLib/main" /I "main" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_ATUM_CLIENT" /D "WIKIGAMES_ENG" /Fp"EffectLib___Win32_R_Wikigames_Eng/EffectLib.pch" /YX /Fo"EffectLib___Win32_R_Wikigames_Eng/" /Fd"EffectLib___Win32_R_Wikigames_Eng/" /FD /c 
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EffectLib\main\AppEffectData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EffectLib\main\CharacterInfo.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EffectLib\main\EffectRender.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EffectLib\main\FxSystem.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EffectLib\main\ObjectAniData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EffectLib\main\ParticleSystem.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EffectLib\main\SkillEffect.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EffectLib\main\SpriteAniData.cpp"
+"C:\Users\Combat-Rivals\Desktop\EP3.5_FullSource_Updated\Client\ProjectAtum_Dve(Live)_KOR\EffectLib\main\TraceAni.cpp"
+]
+Creating command line "cl.exe @C:\Users\COMBAT~1\AppData\Local\Temp\RSPA21F.tmp" 
+Creating temporary file "C:\Users\COMBAT~1\AppData\Local\Temp\RSPA220.tmp" with contents
+[
+/nologo /out:"../../Lib/Release/EffectLib.lib" 
+".\EffectLib___Win32_R_Wikigames_Eng\AppEffectData.obj"
+".\EffectLib___Win32_R_Wikigames_Eng\CharacterInfo.obj"
+".\EffectLib___Win32_R_Wikigames_Eng\EffectRender.obj"
+".\EffectLib___Win32_R_Wikigames_Eng\FxSystem.obj"
+".\EffectLib___Win32_R_Wikigames_Eng\ObjectAniData.obj"
+".\EffectLib___Win32_R_Wikigames_Eng\ParticleSystem.obj"
+".\EffectLib___Win32_R_Wikigames_Eng\SkillEffect.obj"
+".\EffectLib___Win32_R_Wikigames_Eng\SpriteAniData.obj"
+".\EffectLib___Win32_R_Wikigames_Eng\TraceAni.obj"
+]
+Creating command line "link.exe -lib @C:\Users\COMBAT~1\AppData\Local\Temp\RSPA220.tmp"
+<h3>Output Window</h3>
+Compiling...
+AppEffectData.cpp
+CharacterInfo.cpp
+EffectRender.cpp
+FxSystem.cpp
+ObjectAniData.cpp
+ParticleSystem.cpp
+SkillEffect.cpp
+SpriteAniData.cpp
+TraceAni.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+EffectLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

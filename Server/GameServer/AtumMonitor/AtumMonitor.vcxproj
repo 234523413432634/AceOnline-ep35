@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="D_Wikigames_Eng|Win32">
+      <Configuration>D_Wikigames_Eng</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Wikigames_Eng_Arena|Win32">
+      <Configuration>R_Wikigames_Eng_Arena</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_Wikigames_Eng|Win32">
+      <Configuration>R_Wikigames_Eng</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{BCD50A39-203D-4B7F-99C5-988E46C6CC66}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">
+    <OutDir>.\AtumMonitor___Win32_D_Wikigames_Eng\</OutDir>
+    <IntDir>.\AtumMonitor___Win32_D_Wikigames_Eng\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">
+    <OutDir>$(SolutionDir)..\..\Output\Tools\</OutDir>
+    <IntDir>$(SolutionDir)..\..\Intermediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\..\DX9bLink\Include\;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>..\..\DX9bLink\Lib\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'">
+    <OutDir>.\AtumMonitor___Win32_R_Wikigames_Eng\</OutDir>
+    <IntDir>.\AtumMonitor___Win32_R_Wikigames_Eng\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\..\..\Client\ProjectAtum_Dve(Live)_KOR\DX9bLink\Include\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>..\..\..\Client\ProjectAtum_Dve(Live)_KOR\DX9bLink\Lib\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\..\..\output\AtumMonitor\Debug\</OutDir>
+    <IntDir>.\..\..\output\AtumMonitor\Debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\..\..\output\AtumMonitor\Release\</OutDir>
+    <IntDir>.\..\..\output\AtumMonitor\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='D_Wikigames_Eng|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;.\Main;..\CommonGameServer;..\..\Common\d3d8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_ATUM_SERVER;WIKIGAMES_ENG;SC_MONITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\AtumMonitor___Win32_D_Wikigames_Eng\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\AtumMonitor___Win32_D_Wikigames_Eng\AtumMonitor.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\AtumMonitor___Win32_D_Wikigames_Eng\</ObjectFileName>
+      <ProgramDataBaseFileName>.\AtumMonitor___Win32_D_Wikigames_Eng\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\AtumMonitor___Win32_D_Wikigames_Eng\AtumMonitor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\AtumMonitor___Win32_D_Wikigames_Eng\AtumMonitor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD;MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <OutputFile>..\..\..\Output\Tools\SCMonitor_Main_D.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Wininet.lib;odbc32.lib;odbccp32.lib;winmm.lib;ZipArchiveD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;.\Main;..\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_ENG;WIN32;NDEBUG;_WINDOWS;_ATUM_SERVER;WIKIGAMES_ENG;SC_MONITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <PrecompiledHeaderOutputFile>$(IntDir)</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader />
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\AtumMonitor___Win32_R_Wikigames_Eng\AtumMonitor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\AtumMonitor___Win32_R_Wikigames_Eng\AtumMonitor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wininet.lib;winmm.lib;odbc32.lib;odbccp32.lib;ZipArchive.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_Wikigames_Eng_Arena|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;.\Main;..\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_ATUM_SERVER;WIKIGAMES_ENG;SC_MONITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\AtumMonitor___Win32_R_Wikigames_Eng\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\AtumMonitor___Win32_R_Wikigames_Eng\AtumMonitor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>.\AtumMonitor___Win32_R_Wikigames_Eng\</ObjectFileName>
+      <ProgramDataBaseFileName>.\AtumMonitor___Win32_R_Wikigames_Eng\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\AtumMonitor___Win32_R_Wikigames_Eng\AtumMonitor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\AtumMonitor___Win32_R_Wikigames_Eng\AtumMonitor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <OutputFile>..\..\..\Output\Tools\SCMonitor_Main.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wininet.lib;winmm.lib;odbc32.lib;odbccp32.lib;ZipArchive.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\..\Common;.\Main;..\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_ATUM_SERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\..\..\output\AtumMonitor\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\..\..\output\AtumMonitor\Debug\AtumMonitor.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\..\..\output\AtumMonitor\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\output\AtumMonitor\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\output\AtumMonitor\Debug\AtumMonitor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\output\AtumMonitor\Debug\AtumMonitor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD;MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <OutputFile>..\..\BuildResultSvr\Tool\SCMonitor.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Wininet.lib;odbc32.lib;odbccp32.lib;winmm.lib;ZipArchiveD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>.;..\..\Common;.\Main;..\CommonGameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_ATUM_SERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\..\..\output\AtumMonitor\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\..\..\output\AtumMonitor\Release\AtumMonitor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader />
+      <ObjectFileName>.\..\..\output\AtumMonitor\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\output\AtumMonitor\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\..\..\output\AtumMonitor\Release\AtumMonitor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\output\AtumMonitor\Release\AtumMonitor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <OutputFile>..\..\Bin\Release/SCMonitor.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>winmm.lib;odbc32.lib;odbccp32.lib;ZipArchive.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /MAPINFO:EXPORTS  /MAPINFO:LINES </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\Global.cpp" />
+    <ClCompile Include="..\..\Common\IOCP.cpp" />
+    <ClCompile Include="..\..\Common\IOCPSocket.cpp" />
+    <ClCompile Include="..\..\Common\md5_lib_src.cpp" />
+    <ClCompile Include="..\..\Common\MTAutoCriticalSection.cpp" />
+    <ClCompile Include="..\..\Common\MTCriticalSection.cpp" />
+    <ClCompile Include="..\..\Common\Overlapped.cpp" />
+    <ClCompile Include="..\..\Common\QueueINT.cpp" />
+    <ClCompile Include="..\..\Common\SocketHeader.cpp" />
+    <ClCompile Include="..\..\Common\SystemLogManager.cpp" />
+    <ClCompile Include="..\..\Common\ThreadCheck.cpp" />
+    <ClCompile Include="..\..\Common\VMem.cpp" />
+    <ClCompile Include="..\..\Common\VMemPool.cpp" />
+    <ClCompile Include="..\..\Common\WinPacket.cpp" />
+    <ClCompile Include="..\..\Common\WinSocket.cpp" />
+    <ClCompile Include="..\..\Common\XOR_Lib.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumDateTime.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumDBHelper.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumDBManager.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumParamProtocol.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumParamProtocolFunctions.cpp" />
+    <ClCompile Include="..\CommonGameServer\AtumThread.cpp" />
+    <ClCompile Include="..\CommonGameServer\BrowseForFolder.cpp" />
+    <ClCompile Include="..\CommonGameServer\CommandHistory.cpp" />
+    <ClCompile Include="..\CommonGameServer\GlobalGameServer.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\GridCell.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\GridCellBase.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\GridCtrl.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\GridDropTarget.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\InPlaceEdit.cpp" />
+    <ClCompile Include="..\CommonGameServer\GridCtrl\TitleTip.cpp" />
+    <ClCompile Include="..\CommonGameServer\historycombobox.cpp" />
+    <ClCompile Include="..\CommonGameServer\HttpManager.cpp" />
+    <ClCompile Include="..\CommonGameServer\Localization.cpp" />
+    <ClCompile Include="..\CommonGameServer\ODBCStatement.cpp" />
+    <ClCompile Include="..\CommonGameServer\SCServerDBConnDlg.cpp" />
+    <ClCompile Include="..\CommonGameServer\SQLReader.cpp" />
+    <ClCompile Include="..\CommonGameServer\TickManager.cpp" />
+    <ClCompile Include="..\CommonGameServer\WayPointManager.cpp" />
+    <ClCompile Include="AdminWindowDlg.cpp" />
+    <ClCompile Include="AtumMonitor.cpp" />
+    <ClCompile Include="AtumMonitorDoc.cpp" />
+    <ClCompile Include="AtumMonitorView.cpp" />
+    <ClCompile Include="CheckDBData.cpp" />
+    <ClCompile Include="CheckItemDialog.cpp" />
+    <ClCompile Include="ClientFTPUpdateManagerDlg.cpp" />
+    <ClCompile Include="DlgNewServerGroup.cpp" />
+    <ClCompile Include="FieldServerDlg.cpp" />
+    <ClCompile Include="ImportExcelDlg.cpp" />
+    <ClCompile Include="InfoGenDlg.cpp" />
+    <ClCompile Include="LeftView.cpp" />
+    <ClCompile Include="LoadExcelFile.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="main\MonitorNode.cpp" />
+    <ClCompile Include="main\MonitorWinSocket.cpp" />
+    <ClCompile Include="Main\TrayIcon.cpp" />
+    <ClCompile Include="Main\zipfile\DataHeader.cpp" />
+    <ClCompile Include="Main\zipfile\TotalHeader.cpp" />
+    <ClCompile Include="Main\zipfile\Zipfile1.cpp" />
+    <ClCompile Include="Main\zipfile\zipfileDlg.cpp" />
+    <ClCompile Include="MonitorTickManager.cpp" />
+    <ClCompile Include="MyFileDialog.cpp" />
+    <ClCompile Include="PreUserCountDlg.cpp" />
+    <ClCompile Include="PringDBGDlg.cpp" />
+    <ClCompile Include="RecordProgress.cpp" />
+    <ClCompile Include="SelectServerDlg.cpp" />
+    <ClCompile Include="SetCityWarTimeDlg.cpp" />
+    <ClCompile Include="SetMGameEventTypeDlg.cpp" />
+    <ClCompile Include="SQLReaderDlg.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="TableName.cpp" />
+    <ClCompile Include="TotalProgress.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AtumMonitor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\md5_lib_src.h" />
+    <ClInclude Include="..\..\Common\MTAutoCriticalSection.h" />
+    <ClInclude Include="..\..\Common\StringDefineCommon.h" />
+    <ClInclude Include="..\..\Common\WinSocket.h" />
+    <ClInclude Include="..\CommonGameServer\AMLeak.h" />
+    <ClInclude Include="..\CommonGameServer\AtumDBHelper.h" />
+    <ClInclude Include="..\CommonGameServer\CommandHistory.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\CellRange.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\GridCell.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\GridCellBase.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\GridCtrl.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\GridDropTarget.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\InPlaceEdit.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\MemDC.h" />
+    <ClInclude Include="..\CommonGameServer\GridCtrl\TitleTip.h" />
+    <ClInclude Include="..\CommonGameServer\historycombobox.h" />
+    <ClInclude Include="..\CommonGameServer\ODBCStatement.h" />
+    <ClInclude Include="..\CommonGameServer\SCServerDBConnDlg.h" />
+    <ClInclude Include="..\CommonGameServer\SQLReader.h" />
+    <ClInclude Include="..\CommonGameServer\TickManager.h" />
+    <ClInclude Include="..\CommonGameServer\WayPointManager.h" />
+    <ClInclude Include="AdminWindowDlg.h" />
+    <ClInclude Include="AtumMonitor.h" />
+    <ClInclude Include="AtumMonitorDoc.h" />
+    <ClInclude Include="AtumMonitorView.h" />
+    <ClInclude Include="CheckDBData.h" />
+    <ClInclude Include="CheckItemDialog.h" />
+    <ClInclude Include="ClientFTPUpdateManagerDlg.h" />
+    <ClInclude Include="DlgNewServerGroup.h" />
+    <ClInclude Include="FieldServerDlg.h" />
+    <ClInclude Include="ImportExcelDlg.h" />
+    <ClInclude Include="InfoGenDlg.h" />
+    <ClInclude Include="LeftView.h" />
+    <ClInclude Include="LoadExcelFile.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="main\MonitorNode.h" />
+    <ClInclude Include="main\MonitorWinSocket.h" />
+    <ClInclude Include="Main\TrayIcon.h" />
+    <ClInclude Include="Main\zipfile\DataHeader.h" />
+    <ClInclude Include="Main\zipfile\TotalHeader.h" />
+    <ClInclude Include="Main\zipfile\Zipfile1.h" />
+    <ClInclude Include="Main\zipfile\zipfileDlg.h" />
+    <ClInclude Include="MonitorTickManager.h" />
+    <ClInclude Include="MyFileDialog.h" />
+    <ClInclude Include="PreUserCountDlg.h" />
+    <ClInclude Include="PringDBGDlg.h" />
+    <ClInclude Include="RecordProgress.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SelectServerDlg.h" />
+    <ClInclude Include="SetCityWarTimeDlg.h" />
+    <ClInclude Include="SetMGameEventTypeDlg.h" />
+    <ClInclude Include="SQLReaderDlg.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="TableName.h" />
+    <ClInclude Include="TotalProgress.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CheckImage.bmp" />
+    <Image Include="res\AtumMonitor.ico" />
+    <Image Include="res\AtumMonitorDoc.ico" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\AtumMonitor.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AtumMonitorModifyList.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
