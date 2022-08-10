@@ -5,4 +5,5 @@ Requirements
 
 Build order:
 1.	AceOnline-ep35\Server\GameServer\GameServer.sln in “R_Wikigames_Eng” configuration
-2.	AceOnline-ep35\Client\ProjectAtum.sln in “R_Wikigames_Eng” configuration
+2.	AceOnline-ep35\Server\GameServer\GameServer.sln in “R_Wikigames_Eng_Arena” configuration for arena server
+3.	AceOnline-ep35\Client\ProjectAtum.sln in “R_Wikigames_Eng” configuration
